@@ -3303,6 +3303,35 @@
         }
       ],
       "id": 159
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time_slot": "02:00pm",
+      "id": 160
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 32,
+          "row": 4,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 161
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time_slot": "02:00pm",
+      "id": 162
     }
   ]
 }

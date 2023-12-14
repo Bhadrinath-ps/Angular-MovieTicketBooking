@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+ngh --dir=dist/Angular-MovieTicketBooking
 
 .userinfo-title {
   color: cyan;

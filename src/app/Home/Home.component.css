@@ -3,40 +3,6 @@ body {
   padding: 0;
 }
 
-/* .sticky-container {
-  position: sticky;
-  top: 0;
-}
-
-nav {
-  border: 1px;
-  background-color: black;
-  align-items: center;
-  padding: 10px;
-}
-
-.nav_name {
-  align-content: space-around;
-  padding: 10px 50px;
-  align-items: center;
-  text-decoration: none;
-  font-weight: bolder;
-  color: wheat;
-}
-
-.nav_name:hover {
-  background-color: white;
-  color: rgb(129, 235, 8);
-  padding: 7px 50px;
-} */
-
-/* .moviegrip {
-  font-size: 35px;
-  color: Black;
-  background-color: red;
-  padding: 33px 0px;
-} */
-
 .movieName {
   color: cyan;
   margin-left: 13px;
