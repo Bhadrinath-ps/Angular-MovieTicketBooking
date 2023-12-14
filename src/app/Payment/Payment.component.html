@@ -1,0 +1,98 @@
+<head>
+  <title>Payment Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3172/3172555.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px;">
+    <strong>
+      <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+    </strong>
+  </header> -->
+
+  <fieldset>
+    <legend>
+      <h2>Confirm Your Payment</h2>
+    </legend>
+
+    <form [formGroup]="paymentForm" (ngSubmit)="payment()">
+
+      <label class="name"> Name : </label>
+      <input type="text" class="name-input" id="Name" name=" Name" placeholder="Enter Your Name" formControlName="name">
+
+      <small class="error" *ngIf="paymentForm.controls['name'].invalid && paymentForm.controls['name'].touched">
+        <small *ngIf="paymentForm.controls['name'].errors?.['required']"></small>
+        <small *ngIf="paymentForm.controls['name'].errors?.['pattern']"></small>
+      </small>
+
+      <label class="ccv"> CCV : </label>
+      <input type="password" class="ccv-input" id="CCV" name="CCV" placeholder="Enter Your CCV"
+        formControlName="ccv"><br><br>
+
+      <small class="error" *ngIf="paymentForm.controls['ccv'].invalid && paymentForm.controls['ccv'].touched">
+        <small *ngIf="paymentForm.controls['ccv'].errors?.['required']"></small>
+        <small *ngIf="paymentForm.controls['ccv'].errors?.['pattern']"></small>
+      </small>
+
+      <label class="card-number"> Card-Number : </label>
+      <input type="text" class="card-number-input" id="Card Number" name="Card Number"
+        placeholder="Enter Your Card Number" formControlName="cardnumber"><br><br>
+
+      <small class="error"
+        *ngIf="paymentForm.controls['cardnumber'].invalid && paymentForm.controls['cardnumber'].touched">
+        <small *ngIf="paymentForm.controls['cardnumber'].errors?.['required']"></small>
+        <small *ngIf="paymentForm.controls['cardnumber'].errors?.['pattern']"></small>
+      </small>
+
+      <div class="grid-date-logo">
+
+        <div class="datelogo">
+          <label class="exp-date"> Expiration Date : </label><br>
+          <input type="month" class="exp-date-input" id="month_and_year" name="month_and_year"
+            placeholder="Enter Your Expiry" formControlName="month_and_year">
+
+          <small class="error"
+            *ngIf="paymentForm.controls['month_and_year'].invalid && paymentForm.controls['month_and_year'].touched">
+            <small *ngIf="paymentForm.controls['month_and_year'].errors?.['required']"></small>
+          </small>
+
+        </div>
+
+        <div class="datelogo">
+          <div class="logo">
+            <img src="/assets/images/Payment/Visa.jpg"
+              style="height:47px;">
+            <img src="/assets/images/Payment/MasterCard.png">
+            <img src="/assets/images/Payment/EternaVisa.png">
+          </div>
+        </div><br>
+
+      </div>
+
+      <button class="BUTTON" (click)="showTicketButton = true" [disabled]="!paymentForm.valid"> Proceed to Pay {{ totalPrice | currency: 'INR':'symbol':'1.0' }} </button>
+
+    </form>
+  </fieldset>
+
+  <div class="poptext" *ngIf="showTicketButton">
+    <h2>Click down to get ticket</h2>
+    <button class="btn-pop" (click)="openPopup()" value="">Click me</button>
+  </div>
+
+  <div class="popup" *ngIf="isPopupOpen">
+    <div class="popup-content">
+      <img src="https://cdn-icons-png.flaticon.com/512/753/753318.png">
+      <i (click)="closePopup()" class="fa fa-close"></i>
+      <h1>Thank You!</h1>
+      <h4>Your booking is confirmed. <br>Enjoy The Show</h4>
+
+      <a routerLink="/TicketGenerate">
+        <button class="popbtn">Generate Ticket</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+

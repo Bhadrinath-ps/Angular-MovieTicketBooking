@@ -1,0 +1,208 @@
+<body>
+
+  <fieldset>
+    <legend>Update Movies Form</legend>
+
+    <!-- <form class="form-container" [formGroup]="addMoviesForm" (ngSubmit)="addMovies()"> -->
+
+      <form class="form-container">
+
+      <!-- <div></div><div></div>
+
+      <div>
+        <label for="category">Category </label>
+        <select class="category" type="text" formControlName="category">
+          <option value="" disabled selected hidden>Category Of Movie</option>
+          <option value="movieNowShowing">movieNowShowing</option>
+          <option value="movieUpcoming">movieUpcoming</option>
+        </select>
+      </div>
+
+      <div></div><div></div> -->
+
+      <div class="form-group">
+        <label for="pic"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.pic" name="pic" #pic="ngModel"ngModel placeholder="Intro Picture">
+      </div>
+
+      <div class="form-group">
+        <label for="background"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.background" name="background" #background="ngModel"ngModel placeholder="Movie Background">
+      </div>
+
+      <div class="form-group">
+        <label for="title"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.title" name="title" #title="ngModel"ngModel placeholder="Title Of The Movie">
+      </div>
+
+      <div class="form-group">
+        <label for="link"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.link" name="link" #link="ngModel"ngModel placeholder="URL For Movie">
+      </div>
+
+      <div class="form-group">
+        <label for="year_duration"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.year_duration" name="year_duration" #year_duration="ngModel"ngModel placeholder="Released Year & Duration">
+      </div>
+
+      <div class="form-group">
+        <label for="imdb"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.imdb" name="imdb" #imdb="ngModel"ngModel placeholder="IMDB Rating">
+      </div>
+
+      <div class="form-group">
+        <label for="popularity"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.popularity" name="popularity" #popularity="ngModel"ngModel placeholder="Popularity Count">
+      </div>
+
+      <div class="form-group">
+        <label for="movieimg"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.movieimg" name="movieimg" #movieimg="ngModel"ngModel placeholder="Movie Image Poster">
+      </div>
+
+      <div class="form-group">
+        <label for="movievid"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.movievid" name="movievid" #movievid="ngModel"ngModel placeholder="Movie Trailer Video">
+      </div>
+
+      <div class="form-group">
+        <label for="description1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.description1" name="description1" #description1="ngModel"ngModel placeholder="Movie Description Part - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="description2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.description2" name="description2" #description2="ngModel"ngModel placeholder="Movie Description Part - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castpic1" name="castpic1" #castpic1="ngModel"ngModel placeholder="Movie Cast Image - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castpic2" name="castpic2" #castpic2="ngModel"ngModel placeholder="Movie Cast Image - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic3"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castpic3" name="castpic3" #castpic3="ngModel"ngModel placeholder="Movie Cast Image - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic4"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castpic4" name="castpic4" #castpic4="ngModel"ngModel placeholder="Movie Cast Image - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="castname1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname1" name="castname1" #castname1="ngModel"ngModel placeholder="Movie Cast Real Name - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castname2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname2" name="castname2" #castname2="ngModel"ngModel placeholder="Movie Cast Real Name - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castname3"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname3" name="castname3" #castname3="ngModel"ngModel placeholder="Movie Cast Real Name - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castname4"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname4" name="castname4" #castname4="ngModel"ngModel placeholder="Movie Cast Real Name - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="castname11"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname11" name="castname11" #castname11="ngModel"ngModel placeholder="Cast Name In Movie - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castname22"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname22" name="castname22" #castname22="ngModel"ngModel placeholder="Cast Name In Movie - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castname33"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname33" name="castname33" #castname33="ngModel"ngModel placeholder="Cast Name In Movie - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castname44"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.castname44" name="castname44" #castname44="ngModel"ngModel placeholder="Cast Name In Movie - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewpic1" name="reviewpic1" #reviewpic1="ngModel"ngModel placeholder="Reviewer Image - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewpic2" name="reviewpic2" #reviewpic2="ngModel"ngModel placeholder="Reviewer Image - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic3"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewpic3" name="reviewpic3" #reviewpic3="ngModel"ngModel placeholder="Reviewer Image - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic4"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewpic4" name="reviewpic4" #reviewpic4="ngModel"ngModel placeholder="Reviewer Image - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewname1" name="reviewname1" #reviewname1="ngModel"ngModel placeholder="Reviewer Name - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewname2" name="reviewname2" #reviewname2="ngModel"ngModel placeholder="Reviewer Name - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname3"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewname3" name="reviewname2" #reviewname2="ngModel"ngModel placeholder="Reviewer Name - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname4"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewname4" name="reviewname4" #reviewname4="ngModel"ngModel placeholder="Reviewer Name - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes1"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewdes1" name="reviewdes1" #reviewdes1="ngModel"ngModel placeholder="Reviewer's Review - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes2"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewdes2" name="reviewdes2" #reviewdes2="ngModel"ngModel placeholder="Reviewer's Review - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes3"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewdes3" name="reviewdes3" #reviewdes3="ngModel"ngModel placeholder="Reviewer's Review - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes4"></label>
+        <input class="form-control" type="text" [(ngModel)]="movie.reviewdes4" name="reviewdes4" #reviewdes4="ngModel"ngModel placeholder="Reviewer's Review - 4">
+      </div>
+
+      <div></div>
+      <div></div>
+
+      <div>
+        <button class="BUTTON" (click)="updateUC()">Submit</button>
+      </div>
+
+    </form>
+  </fieldset>
+
+</body>

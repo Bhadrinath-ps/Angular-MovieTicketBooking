@@ -1,0 +1,483 @@
+body {
+  background: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+.userinfo-title {
+  color: cyan;
+  margin-left: 13px;
+  font-size: 25px;
+  display: block;
+  margin-top: 30px;
+}
+
+.userinfo-title:hover {
+  color: red;
+  cursor: pointer;
+}
+
+table {
+  border: white 1px solid;
+  border-radius: 10px;
+  background-color: rgba(14, 10, 10, 0.886);
+  box-shadow: 0 6px 10px 0 rgba(241, 8, 8, 0.269), 0 8px 22px 0 rgba(211, 9, 9, 0.26);
+  border-collapse: collapse;
+  margin-left: 13px;
+  width: 98.2%;
+  height: fit-content;
+  text-align: center;
+}
+
+thead td {
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: large;
+  padding: 10px;
+}
+
+tr td {
+  margin-left: 20px;
+  color: white;
+  font-size: large;
+  padding: 5px;
+}
+
+td {
+  border: 2px solid rgba(255, 255, 255, 0.678);
+}
+
+td i {
+  color: cyan;
+}
+
+i button {
+  cursor: pointer;
+}
+
+.show-button {
+  border-radius: 0px 0px 15px 15px;
+  padding: 5px 10px 5px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 92.39%;
+  border: 0px;
+  font-weight: 600;
+  background-color: rgba(249, 20, 20, 0.914);
+}
+
+.show-button:active {
+  background-color: rgba(252, 63, 63, 0.914);
+}
+
+/* Movies */
+
+.movieName {
+  color: cyan;
+  margin-left: 13px;
+  font-size: 25px;
+}
+
+.movieName:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.movieNameUC {
+  color: cyan;
+  margin-left: 13px;
+  font-size: 25px;
+}
+
+.MovieNameUC:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-addmovie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 13px;
+  column-gap: 8px;
+  padding-left: 13px;
+}
+
+.zoom img {
+  height: 480px;
+  width: 350px;
+}
+
+.zoom:hover{
+  transform: scale(1.02);
+}
+
+.addmovies {
+  background-color: rgba(10, 4, 4, 0.815);
+  border: cyan 2px solid;
+  color: cyan;
+  font-size: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.addmovies:hover {
+  background-color: rgba(61, 61, 61, 0.815);
+  border: rgb(16, 18, 18) 2px solid;
+  color:rgb(238, 231, 231);
+}
+
+.delete {
+  padding-top: 12px;
+  position: relative;
+  bottom: 480px;
+  margin-left: 308px;
+}
+
+.delete button {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.edit {
+  padding-top: 5px;
+  position: relative;
+  bottom: 480px;
+  margin-left: 308px;
+}
+
+.edit i {
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 0.85px;
+}
+
+.edit button {
+  cursor: pointer;
+  padding: 7px;
+}
+
+@media (max-width: 1300px) {
+  .column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 13px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .column {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  .column {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 13px;
+  }
+}
+
+/* Feedback */
+
+.feedback-title {
+  color: cyan;
+  margin-left: 13px;
+  font-size: 25px;
+  display: block;
+  margin-top: -30px;
+}
+
+.feedback-title:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.query_box {
+  display: inline-flex;
+  flex-direction: column;
+  width: 33.3%;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  height: max-content;
+}
+
+.feedback_card {
+  background-color: hsla(0, 33%, 4%, 0.625);
+  box-shadow: 0 0px 5px rgba(68, 30, 30, 0.44);
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+  height: 105px;
+}
+
+.card_img {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.card_img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  margin-right: 10px;
+  margin-top: -30px;
+  border: 1px solid rgb(246, 107, 107);
+}
+
+.card_img p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-top: -28px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.card_img span {
+  color: grey;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.card_img p:hover,
+.card_img span:hover {
+  color: rgba(70, 70, 248, 0.819);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card_heading {
+  color: white;
+  font-size: 18px;
+}
+
+.card_detail {
+  color: hsla(0, 0%, 81%, 0.852);
+  line-height: 1.3;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  width: fit-content;
+}
+
+.query_box .delete_fb {
+  margin-left: 424px;
+}
+
+.query_box .delete_fb button {
+  cursor: pointer;
+  border-radius: 48%;
+  padding: 8px;
+}
+
+.delete_fb button:hover {
+  background-color: #ffffffbc;
+}
+
+/* Ticket */
+
+.ticket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 13px;
+  column-gap: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+fieldset {
+  border-radius: 20px;
+  border: 3px dashed #ccc;
+  background-color: rgba(45, 2, 25, 0.653);
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+fieldset i {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  margin: 10px 5px 0px 0px;
+}
+
+.header {
+  margin-top: -25px;
+  text-align: center;
+  color: #ccc;
+}
+
+#status {
+  margin-top: -13px;
+  font-weight: 600;
+  color: rgba(218, 22, 22, 0.874);
+  letter-spacing: 1px;
+}
+
+.movie-details h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.header p {
+  margin-top: -20px;
+  color: #ccc;
+  letter-spacing: 5px;
+}
+
+.seat-details h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.movie-details,
+.seat-details {
+  flex-basis: 45%;
+  margin-top: 20px;
+}
+
+.movie-details p,
+.seat-details p {
+  margin: 0;
+  color: white;
+}
+
+.ticket i:hover {
+  color: #d6c4d3d9;
+}
+
+@media (max-width: 1300px) {
+  .show-button {
+    margin-left: 90.3%;
+  }
+
+  .query_box {
+    display: inline-flex;
+    flex-direction: colurmn;
+    width: 53.3%;
+  }
+
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .show-button {
+    margin-left: 85.75%;
+  }
+
+  .query_box {
+    display: inline-flex;
+    flex-direction: column;
+    width: 73.3%;
+  }
+
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .query_box .delete_fb {
+    margin-left: 594px;
+  }
+}
+
+@media (max-width: 700px) {
+  .show-button {
+    margin-left: 77.99%;
+  }
+
+  .query_box {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .query_box .delete_fb {
+    margin-left: 394px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .movie-details,
+  .seat-details {
+    flex-basis: 100%;
+  }
+}
+
+.movies-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 40%;
+  height: 100%;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+

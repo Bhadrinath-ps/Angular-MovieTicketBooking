@@ -1,0 +1,71 @@
+<head>
+  <title>MOVIE TICKET BOOKING</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3172/3172555.png" type="image/x-icon">
+</head>
+
+<body background="https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg">
+
+
+
+  <!-- <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px;">
+    <strong>
+      <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+    </strong>
+  </header>
+
+  <ul>
+    <li><a routerLink="/">HOME</a></li>
+    <li><a routerLink="/Theatre">THEATRE</a></li>
+    <li><a routerLink="/ContactUs">CONTACT US</a></li>
+    <li><a routerLink="/Login">LOGIN</a></li>
+  </ul> -->
+
+  <div class="container">
+
+    <fieldset>
+      <legend>
+        <h2 style="color:rgb(254, 254, 255);">BOOKING PAGE</h2>
+      </legend>
+
+      <table>
+        <tr>
+          <td *ngFor="let movie of movieList">
+            <img src="{{movie.pic}}" width=85 height=117.5>
+          </td>
+        </tr>
+      </table>
+
+      <form [formGroup]="bookTicket" (ngSubmit)="ticket()">
+
+        <h4 style="color:Orange;">Choose a Movie</h4>
+
+        <select id="movie" class="movie_selection" name="movie" formControlName="movie_selection">
+          <option value="" disabled selected hidden>Select a Movie</option>
+
+          <ng-container *ngFor="let movie of movieList">
+            <option value="{{movie.title}}">{{movie.title}}</option>
+          </ng-container>
+
+        </select>
+
+        <h4 style="color:Pink;">Type show Date & Time</h4>
+
+        <input type="date" formControlName="date" [min]="minDate" [max]="maxDate">
+
+        <select class="time_slot" formControlName="time_slot">
+          <option value="" disabled selected hidden>Time Slot</option>
+          <option value="10:00am" [disabled]="isTimeSlotDisabled('10:00')"> 10:00am </option>
+          <option value="02:00pm" [disabled]="isTimeSlotDisabled('14:00')"> 02:00pm </option>
+          <option value="06:00pm" [disabled]="isTimeSlotDisabled('18:00')"> 06:00pm </option>
+          <option value="10:00pm" [disabled]="isTimeSlotDisabled('22:00')"> 10:00pm </option>
+        </select>
+
+        <h4 style="color:yellowgreen;">Click Here To Select The Seats</h4>
+
+        <button class="BUTTON" [disabled]="!bookTicket.valid">Book Seat</button>
+
+      </form>
+
+    </fieldset>
+  </div>
+</body>

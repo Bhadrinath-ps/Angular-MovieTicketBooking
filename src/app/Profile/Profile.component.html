@@ -1,0 +1,38 @@
+<!-- <head>
+  <title>Profile</title>
+</head>
+
+<body>
+  <div class="container">
+
+  </div>
+</body> -->
+
+<!-- <body>
+  <h2>Profile</h2>
+  <div>
+  <div class="profile-content" *ngIf="service.islogin()">
+    <p>Name: {{ service.getname()["username"]}}</p>
+    <p>Email: {{ service.getname()["email"] }}</p>
+    <p>Phone: {{ service.getname()["phone"] }}</p>
+    <button routerLink="/EditProfile">Edit Profile</button>
+  </div>
+</body> -->
+
+<body>
+  <form class="profile-content" *ngFor="let data of registration">
+    <fieldset>
+      <legend><h2>Profile</h2></legend>
+
+      <div class="settings">
+        <a routerLink="/EditProfile/{{ data.id }}"><i class="fa fa-cog"></i></a>
+      </div>
+
+      <img src="{{ data.profilepic }}" />
+      <p>{{ data.username }}</p>
+      <p>{{ data.email }}</p>
+      <p>{{ data.phone }}</p>
+    </fieldset>
+    <button routerLink="/TicketGenerate">Tickets</button>
+  </form>
+</body>

@@ -1,0 +1,175 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" />
+</head>
+
+<body>
+  <!-- Getting User - Registration -->
+
+  <h1 class="userinfo-title">USER INFORMATION</h1>
+
+  <table>
+    <thead>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Email</td>
+      <td>Phone</td>
+      <!-- <td>Delete</td> -->
+    </thead>
+    <tr *ngFor="let user of userregistered; let i = index" [hidden]="!showMore && i >= displayIds">
+      <td>{{ user.id }}</td>
+      <td>{{ user.username }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.phone }}</td>
+      <!-- <td><i class="fa fa-edit"></i></td> -->
+      <!-- <td><i><button (click)="delUserInfo(userregistered.id)" class="fa fa-trash"></button></i></td> -->
+    </tr>
+  </table>
+
+  <div *ngIf="userregistered.length > displayIds">
+    <button (click)="toggleShowMore()" class="show-button">
+      <div *ngIf="showMore">
+        Show Less <i class="fa fa-caret-up"></i>
+      </div>
+      <div *ngIf="!showMore">
+        Show More <i class="fa fa-caret-down"></i>
+      </div>
+
+    </button>
+  </div>
+
+  <!-- Getting Both Upcoming & Now Showing Movies -->
+
+
+
+  <div class="title-addmovie">
+    <h1 class="MovieName">MOVIE DETAILS - MOVIES NOW SHOWING</h1>
+    <button class="addmovies" routerLink="/AddMovies"> + Add Movies </button>
+  </div>
+
+  <div class="movies">
+    <div class="column">
+      <div class="grid-container" *ngFor="let MoviesNowShowing of movieList1">
+        <div class="zoom">
+          <a routerLink="/Home/{{ MoviesNowShowing.link }}">
+            <img src="{{ MoviesNowShowing.pic }}" />
+          </a>
+          <div class="delete">
+            <button>
+              <a><i class="fa fa-trash" (click)="delShowing(MoviesNowShowing.id)"></i></a>
+            </button>
+          </div>
+          <div class="edit">
+            <button>
+              <a routerLink="/UpdateMoviesNowShowing/{{ MoviesNowShowing.id }}"><i class="fa fa-edit"></i></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="title-addmovie" style="margin-top: -60px;">
+    <h1 class="MovieNameUC">MOVIE DETAILS - UPCOMING MOVIES</h1>
+    <button class="addmovies" style="position: absolute; right: 7px;" routerLink="/AddMovies"> + Add Movies </button>
+  </div>
+
+  <div class="movies">
+    <div class="column">
+      <div class="grid-container" *ngFor="let movieUpcoming of movieList2">
+        <div class="zoom">
+          <a routerLink="/Home/{{ movieUpcoming.link }}">
+            <img src="{{ movieUpcoming.pic }}" />
+          </a>
+          <div class="delete">
+            <button>
+              <a><i class="fa fa-trash" (click)="delComing(movieUpcoming.id)"></i></a>
+            </button>
+          </div>
+          <div class="edit">
+            <button>
+              <a routerLink="/UpdateMoviesUpcoming/{{ movieUpcoming.id }}"><i class="fa fa-edit"></i></a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+<!-- Getting Feedback -->
+
+<h1 class="feedback-title">USER FEEDBACK</h1>
+
+<!-- <div *ngFor="let cu of contactUs">
+    <h1>{{cu.name}}</h1>
+    <h1>{{cu.email}}</h1>
+    <h1>{{cu.phone}}</h1>
+    <h1>{{cu.query}}</h1>
+  </div> -->
+
+<div class="query_box" *ngFor="let cu of contactUs">
+  <div class="main">
+    <div class="feedback_card">
+      <div class="delete_fb">
+        <button>
+          <a href="#"><i class="fa fa-trash" (click)="delUserFeedback(cu.id)"></i></a>
+        </button>
+      </div>
+      <div class="card_img">
+        <img src="/assets/images/Profile/Profile-UserImage.jpg" alt="user">
+        <div class="card_user">
+          <div class="name">
+            <p>{{ cu.name }}</p> <span>{{ cu.email }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="card_detail">
+        {{ cu.query }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Getting Tickets -->
+
+<h1 class="userinfo-title">USER TICKETS</h1>
+
+<div class="ticket">
+
+  <fieldset *ngFor="let data of tickets">
+    <i class="fa fa-trash" (click)="delUserTicket(data.id)"></i>
+    <div class="header">
+      <h2>{{data.name | uppercase}}</h2>
+      <p>{{data.email}}</p>
+      <p id="status">---{{ data.status }}---</p>
+    </div>
+    <div class="movie-details">
+      <h3>Movie : {{data.movie_selection}}</h3>
+      <p>Date : {{data.date}}</p>
+      <p>Show Time : {{data.time_slot}}</p>
+      <p>Venue : {{data.theatre}}, {{data.city}}</p>
+    </div>
+    <div class="seat-details">
+      <h3>Seat Details</h3>
+      <p>Seat Count : {{data.seats}}</p>
+      <div *ngFor="let dat of data.seatData">
+        <p>Seat Number : {{dat.row}}{{dat.column}}</p>
+      </div>
+      <p>Price : {{data.totalPrice | currency:'INR':'symbol':'1.0'}}</p>
+    </div>
+  </fieldset>
+</div>
+
+
+<!--
+<div class="movies-box">
+
+  <div *ngFor="let MoviesNowShowing of movieList1"></div>
+  <i></i>
+  <i>{{ movieList1.length }}</i>
+  <h2>Movies Now Showing</h2>
+</div> -->

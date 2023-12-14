@@ -1,0 +1,172 @@
+<body>
+
+  <!-- <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px">
+    <strong>
+      <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+    </strong>
+  </header>
+
+  <ul>
+    <li><a routerLink="/">HOME</a></li>
+    <li><a routerLink="/Theatre">THEATRE</a></li>
+    <li><a routerLink="/ContactUs">CONTACT US</a></li>
+    <li><a routerLink="/Login">LOGIN</a></li>
+  </ul>
+
+  <!-- <nav class="nav">
+    <a class="nav_name" routerLink="/Home">Home</a>
+    <a class="nav_name" routerLink="/Login">Login</a>
+    <a class="nav_name" routerLink="/Register">Register</a>
+    <a class="nav_name" routerLink="/Product">Product</a>
+    <a class="nav_name" routerLink="/ContactUs">ContactUs</a>
+  </nav> -->
+
+  <div class="grid-container">
+
+    <div class="grid-item">
+      <table class="movie_now_showing">
+        <tr>
+          <th class="des_title" colspan="2">
+            MOVIES NOW STREAMING
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://www.madisonlibrary.org/sites/default/files/2022-04/Luca.jpg" alt="" width="190"
+              height="255">
+          </td>
+          <td>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTcyOTc2OTA1Ml5BMl5BanBnXkFtZTcwOTI1MjkzOQ@@._V1_.jpg"
+              alt="" width="190" height="255">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BMTlkZjM1MDctZTZlOC00NDQwLTg3ZGEtNTJhMWQ2YWIxNGViXkEyXkFqcGdeQXVyMjQ5MjYwNDE@._V1_.jpg"
+              alt="" width="190" height="255">
+          </td>
+          <td>
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZ6_8mkeAGVUvYo6Oe0cJVZJS9-iOW9CHDFzfbaBlbzoHt6NBt"
+              alt="" width="190" height="255">
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="grid-item">
+      <div class="reg-form">
+        <fieldset>
+          <legend><B> REGISTRATION </B></legend>
+          <br>
+          <form class="container" [formGroup]="registerForm" (ngSubmit)="signUp()">
+
+            <div class="form-group">
+              <label for="UserName"></label>
+              <input class="form-control" type="text" name="username" id="username" formControlName="username"
+                placeholder="Enter Your Name">
+            </div>
+
+            <div class="error"
+              *ngIf="registerForm.controls['username'].invalid && registerForm.controls['username'].touched">
+              <small *ngIf="registerForm.controls['username'].errors?.['required']">Please Enter Username</small>
+              <small *ngIf="registerForm.controls['username'].errors?.['pattern']">Please Provide Proper
+                Username</small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="Email"></label>
+              <input id="my-input" class="form-control" type="email" name="email" id="email" formControlName="email"
+                placeholder="Enter Your Email">
+            </div>
+
+            <div class="error" *ngIf="registerForm.controls['email'].invalid && registerForm.controls['email'].touched">
+              <small *ngIf="registerForm.controls['email'].errors?.['required']">Please Enter Email ID</small>
+              <small *ngIf="registerForm.controls['email'].errors?.['pattern']">Invalid Email ID</small>
+            </div>
+
+            <div class="form-group">
+              <label for="Phone"></label>
+              <input class="form-control" type="number" name="phone" id="phone" formControlName="phone"
+                placeholder="Enter Your Phone">
+            </div>
+
+            <div class="error" *ngIf="registerForm.controls['phone'].invalid && registerForm.controls['phone'].touched">
+              <small *ngIf="registerForm.controls['phone'].errors?.['required']">Please Enter Phone No</small>
+              <small *ngIf="registerForm.controls['phone'].errors?.['pattern']">Invalid Phone Number</small>
+            </div>
+
+            <div class="form-group">
+              <label for="Password"></label>
+              <input id="my-input" class="form-control" [type]="showPassword? 'text':'password'" name="pass" id="pass"
+                formControlName="password" placeholder="Enter Your Password">
+              <i (click)="toggleShow()" class="fa-solid fa-eye eye" *ngIf="!showPassword"></i>
+              <i (click)="toggleShow()" class="fa-solid fa-eye-slash eye" *ngIf="showPassword"></i>
+            </div>
+
+            <div class="error"
+              *ngIf="registerForm.controls['password'].invalid && registerForm.controls['password'].touched">
+              <small *ngIf="registerForm.controls['password'].errors?.['required']">Please Enter Password</small>
+              <small *ngIf="registerForm.controls['password'].errors?.['pattern']">Password must be strong</small>
+            </div>
+
+            <div class="form-group">
+              <label for="C-Password"></label>
+              <input id="my-input" class="form-control" [type]="showCPassword? 'text':'password'" name="cpass"
+                id="cpass" formControlName="cpassword" placeholder="Retype Your Password">
+              <i (click)="toggleShowCP()" class="fa-solid fa-eye eye" *ngIf="!showCPassword"></i>
+              <i (click)="toggleShowCP()" class="fa-solid fa-eye-slash eye" *ngIf="showCPassword"></i>
+            </div>
+
+            <div class="error"
+              *ngIf="registerForm.controls['cpassword'].invalid && registerForm.controls['cpassword'].touched">
+              <small *ngIf="registerForm.controls['cpassword'].errors?.['required']">Please Enter Cpassoword</small>
+              <small *ngIf="registerForm.controls['cpassword'].errors?.['ConfirmedValidator']">Please Check With
+                Passoword Field</small>
+            </div>
+
+
+            <button class="BUTTON" [disabled]="!registerForm.valid">Register Now</button>
+
+            <hr>
+
+            <p>Already have an account : <a routerLink="/Login">Login</a></p>
+
+          </form>
+
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <table class="movie_upcoming">
+        <tr>
+          <th class="des_title" colspan="2">
+            MOVIES UPCOMING
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://m.media-amazon.com/images/I/71YwxjfhEiL._AC_SL1303_.jpg" alt="" width="190" height="255">
+          </td>
+          <td>
+            <img src="https://i.ebayimg.com/images/g/qD8AAOSwTOtapSLx/s-l500.jpg" alt="" width="190" height="255">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://pbs.twimg.com/media/Ex0A5HgUcAcuxm2.jpg" alt="" width="190" height="255">
+          </td>
+          <td>
+            <img src="https://i.pinimg.com/originals/e4/bb/97/e4bb97ed99a32328cbf3a9517845abb8.jpg" alt="" width="190"
+              height="255">
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</body>

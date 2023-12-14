@@ -1,0 +1,206 @@
+<body>
+
+  <fieldset>
+    <legend>Add Movies Form</legend>
+
+    <form class="form-container" [formGroup]="addMoviesForm" (ngSubmit)="addMovies()">
+
+      <div></div><div></div>
+
+      <div>
+        <label for="category">Category </label>
+        <select class="category" type="text" formControlName="category">
+          <option value="" disabled selected hidden>Category Of Movie</option>
+          <option value="movieNowShowing">Movies Now Showing</option>
+          <option value="movieUpcoming">Movies Upcoming</option>
+        </select>
+      </div>
+
+      <div></div><div></div>
+
+      <div class="form-group">
+        <label for="pic"></label>
+        <input class="form-control" type="text" formControlName="pic" placeholder="Intro Picture">
+      </div>
+
+      <div class="form-group">
+        <label for="background"></label>
+        <input class="form-control" type="text" formControlName="background" placeholder="Movie Background">
+      </div>
+
+      <div class="form-group">
+        <label for="title"></label>
+        <input class="form-control" type="text" formControlName="title" placeholder="Title Of The Movie">
+      </div>
+
+      <div class="form-group">
+        <label for="link"></label>
+        <input class="form-control" type="text" formControlName="link" placeholder="URL For Movie">
+      </div>
+
+      <div class="form-group">
+        <label for="year_duration"></label>
+        <input class="form-control" type="text" formControlName="year_duration" placeholder="Released Year & Duration">
+      </div>
+
+      <div class="form-group">
+        <label for="imdb"></label>
+        <input class="form-control" type="text" formControlName="imdb" placeholder="IMDB Rating">
+      </div>
+
+      <div class="form-group">
+        <label for="popularity"></label>
+        <input class="form-control" type="text" formControlName="popularity" placeholder="Popularity Count">
+      </div>
+
+      <div class="form-group">
+        <label for="movieimg"></label>
+        <input class="form-control" type="text" formControlName="movieimg" placeholder="Movie Image Poster">
+      </div>
+
+      <div class="form-group">
+        <label for="movievid"></label>
+        <input class="form-control" type="text" formControlName="movievid" placeholder="Movie Trailer Video">
+      </div>
+
+      <div class="form-group">
+        <label for="description1"></label>
+        <input class="form-control" type="text" formControlName="description1" placeholder="Movie Description Part - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="description2"></label>
+        <input class="form-control" type="text" formControlName="description2" placeholder="Movie Description Part - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic1"></label>
+        <input class="form-control" type="text" formControlName="castpic1" placeholder="Movie Cast Image - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic2"></label>
+        <input class="form-control" type="text" formControlName="castpic2" placeholder="Movie Cast Image - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic3"></label>
+        <input class="form-control" type="text" formControlName="castpic3" placeholder="Movie Cast Image - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castpic4"></label>
+        <input class="form-control" type="text" formControlName="castpic4" placeholder="Movie Cast Image - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="castname1"></label>
+        <input class="form-control" type="text" formControlName="castname1" placeholder="Movie Cast Real Name - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castname2"></label>
+        <input class="form-control" type="text" formControlName="castname2" placeholder="Movie Cast Real Name - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castname3"></label>
+        <input class="form-control" type="text" formControlName="castname3" placeholder="Movie Cast Real Name - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castname4"></label>
+        <input class="form-control" type="text" formControlName="castname4" placeholder="Movie Cast Real Name - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="castname11"></label>
+        <input class="form-control" type="text" formControlName="castname11" placeholder="Cast Name In Movie - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="castname22"></label>
+        <input class="form-control" type="text" formControlName="castname22" placeholder="Cast Name In Movie - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="castname33"></label>
+        <input class="form-control" type="text" formControlName="castname33" placeholder="Cast Name In Movie - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="castname44"></label>
+        <input class="form-control" type="text" formControlName="castname44" placeholder="Cast Name In Movie - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic1"></label>
+        <input class="form-control" type="text" formControlName="reviewpic1" placeholder="Reviewer Image - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic2"></label>
+        <input class="form-control" type="text" formControlName="reviewpic2" placeholder="Reviewer Image - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic3"></label>
+        <input class="form-control" type="text" formControlName="reviewpic3" placeholder="Reviewer Image - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewpic4"></label>
+        <input class="form-control" type="text" formControlName="reviewpic4" placeholder="Reviewer Image - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname1"></label>
+        <input class="form-control" type="text" formControlName="reviewname1" placeholder="Reviewer Name - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname2"></label>
+        <input class="form-control" type="text" formControlName="reviewname2" placeholder="Reviewer Name - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname3"></label>
+        <input class="form-control" type="text" formControlName="reviewname3" placeholder="Reviewer Name - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewname4"></label>
+        <input class="form-control" type="text" formControlName="reviewname4" placeholder="Reviewer Name - 4">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes1"></label>
+        <input class="form-control" type="text" formControlName="reviewdes1" placeholder="Reviewer's Review - 1">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes2"></label>
+        <input class="form-control" type="text" formControlName="reviewdes2" placeholder="Reviewer's Review - 2">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes3"></label>
+        <input class="form-control" type="text" formControlName="reviewdes3" placeholder="Reviewer's Review - 3">
+      </div>
+
+      <div class="form-group">
+        <label for="reviewdes4"></label>
+        <input class="form-control" type="text" formControlName="reviewdes4" placeholder="Reviewer's Review - 4">
+      </div>
+
+      <div></div>
+      <div></div>
+
+      <div>
+        <button class="BUTTON" [disabled]="!addMoviesForm.valid">Submit</button>
+      </div>
+
+    </form>
+  </fieldset>
+
+</body>

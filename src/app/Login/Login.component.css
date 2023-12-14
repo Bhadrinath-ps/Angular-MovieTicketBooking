@@ -1,0 +1,242 @@
+body {
+  background: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: -6px;
+  overflow: hidden;
+  background-color: rgb(24, 24, 24);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 7px 150px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(42, 42, 42);
+  color: wheat;
+}
+
+.login-form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 79vh;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border-radius: 6px;
+  height: 28px;
+  width: 285px;
+  padding-left: 10px;
+}
+
+.eye {
+  position: absolute;
+  margin-left: 15.7%;
+  font-size: 13.5px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.eye:hover {
+  opacity: 1;
+}
+
+.form-control {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset {
+  margin-top: 10%;
+  background-color: rgba(14, 10, 10, 0.886);
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.916);
+  box-shadow: 0 6px 10px 0 rgba(241, 8, 8, 0.269), 0 8px 22px 0 rgba(211, 9, 9, 0.26);
+  width: 23.5%;
+  height: max-content;
+}
+
+legend {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.BUTTON {
+  /* background-color: rgb(255, 255, 255);
+  color: black; */
+  border: 1px solid rgba(254, 4, 4, 0.491);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 4px 12px;
+  margin: 10px 0px 10px 41%;
+}
+
+.BUTTON:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.forgotpass,
+p {
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+}
+
+.forgotpass:hover {
+  color: blue;
+}
+
+.signup {
+  margin-bottom: 10px;
+}
+
+.error {
+  font-size: 18px;
+  color: white;
+  margin: 2px 0px 2px 38px;
+  width: fit-content;
+}
+
+/* popup */
+
+.popup {
+  position: absolute;
+  top: 19%;
+  /* top: 0%; */
+  left: 0%;
+  background-color: rgba(10, 10, 10, 0.856);
+  width: 100%;
+  height: 81%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 6px 6px 10px 0px rgb(35, 8, 241), 10px 8px 22px 10px rgba(0, 0, 0, 0.637);
+  backdrop-filter: blur(5px);
+}
+
+.popup fieldset {
+  margin-left: 175px;
+  margin-bottom: 140px;
+}
+
+.popup .label {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0 10px;
+  color: white;
+}
+
+.popup button {
+  width: 95%;
+  margin: 20px 0px 5px 0px;
+  padding: 10px 0;
+  color: white;
+  border: 0;
+  background-color: rgba(236, 27, 27, 0.912);
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:disabled {
+  background-color: rgba(77, 76, 76, 0.529);
+}
+
+.popup button:hover {
+  color: plum;
+}
+
+.popup.open {
+  display: flex;
+}
+
+.popup-content {
+  /* background-color: rgba(47, 46, 46, 0.112); */
+  width: auto;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 5px;
+
+  /* background-color: white;
+  padding: 20px;
+  border-radius: 5px; */
+}
+
+.popup .fa-close {
+  position: relative;
+  cursor: pointer;
+  font-size: 25px;
+  color: red;
+  left: 139px;
+  bottom: 12.5px;
+}
+
+.popup .fa-close:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.586);
+}
+
+.popup .reset-eye {
+  position: relative;
+  margin-left: 87%;
+  margin-top: -20px;
+  font-size: 13.5px;
+  opacity: 0.85;
+  color: black;
+  cursor: pointer;
+}
+
+.popup .reset-eye:hover {
+  opacity: 1;
+}
+
+.popup .popup-content legend{
+  font-size: 23px;
+  text-align: center;
+}
+
+.popup .popup-content label {
+  color: white;
+  margin: 15px;
+}
+
+.text-danger {
+  padding-top: 3px;
+  color: rgb(255, 128, 128);
+  font-weight: 900;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 4px;
+  border-color: red;
+}

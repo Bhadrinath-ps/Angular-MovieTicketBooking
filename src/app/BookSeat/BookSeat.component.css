@@ -1,0 +1,514 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(rgba(1, 1, 46, 0.826), rgb(0, 0, 0)),
+    url(/assets/images/BookSeat/BookSeat-Background.jpg);
+  background-size: 100%;
+  color: #fff;
+  background-color: red;
+  padding-top: 10px;
+}
+
+/* Marquee */
+
+.marquee-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: inline-block;
+  margin-top: 7px;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.marquee-content .color-1 {
+  color: rgba(248, 24, 24, 0.823);
+  background-color: rgba(100, 81, 81, 0.056);
+  font-weight: bolder;
+}
+
+.marquee-content .color-2 {
+  background-color: rgba(223, 182, 105, 0.045);
+  color: rgba(255, 192, 203, 0.436);
+  font-weight: bolder;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Discount */
+
+.discountTimer {
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 1px;
+  transform: rotate(-180deg);
+  transform-origin: bottom;
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  background-color: rgb(223, 41, 41);
+  padding: 15px 10px 15px 10px;
+  /* border: 8px solid #f12b2b; */
+  text-shadow: #213a69;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.discountTimerends {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 1px;
+  transform: rotate(-180deg);
+  transform-origin: bottom;
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  background-color: rgb(223, 41, 41);
+  padding: 15px 10px 15px 10px;
+  /* border: 8px solid #f12b2b; */
+  text-shadow: #213a69;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/* Movie Details */
+
+.movie-details {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: rgba(213, 211, 211, 0.574);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Movie Screen and Seats */
+
+.container {
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+  margin: 25px 280px;
+}
+
+.movie-screen {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.movie-screen img {
+  width: 520px;
+  height: 135px;
+  margin-top: -43px;
+  margin-bottom: -20px;
+}
+
+/* Seats */
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.seat-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 32px;
+  margin: 0.5rem;
+  border-radius: 15px 15px 0px 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.seat.available {
+  background-color: #2196f3;
+}
+
+.seat.selected {
+  background-color: #f04e4e;
+}
+
+.seat.reserved {
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+
+.seat.occupied {
+  background-color: #ffffff;
+  /* cursor: not-allowed; */
+}
+
+.submit-button,
+.payment-button {
+  border-radius: 15px;
+  padding: 6px 12px;
+  font-size: 14;
+  border: 1px solid rgba(13, 9, 0, 0.491);
+  cursor: pointer;
+  margin: 18px auto 21px auto;
+  color: black;
+}
+
+.grid-buttons {
+  /* margin: -170px 0px 0 45%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button:hover,
+.payment-button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Billing Details */
+
+.billing-container {
+  /* margin: -20px; */
+  margin: 50px 120px 0px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.67);
+  box-shadow: 1px 6px 10px 1px rgba(8, 8, 8, 0.695), 1px 5px 32px 1px rgba(234, 38, 38, 0.26);
+}
+
+.billing-header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.billing-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.billing-details span {
+  font-weight: bold;
+}
+
+.billing-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.billing-total span {
+  font-weight: bold;
+}
+
+.billing-discount {
+  color: #ff0000;
+}
+
+.billing-contribution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: max-content
+}
+
+.billing-contribution span {
+  font-weight: bold;
+}
+
+.billing-contribution button {
+  background-color: black;
+  font-size: 10px;
+  display: block;
+  padding-left: 100px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.billing-final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.billing-final span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+hr {
+  margin: 10px 0px 0px 0px;
+}
+
+.strikeout {
+  text-decoration: line-through;
+}
+
+/* Food and Beverages Popup */
+
+.food-beverages-button {
+  margin-left: 36.5%;
+  margin-bottom: -30px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.food-beverages-button:hover {
+  background-color: #0056b3;
+}
+
+.snacks-background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(17, 17, 17, 0.785);
+  backdrop-filter: blur(7px);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  height: 106%;
+}
+
+.food-beverage-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #251515;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  /* z-index: 1000; */
+  max-width: 400px;
+
+}
+
+.close-popup-button {
+  position: relative;
+  left: 95%;
+  top: -5px;
+  font-size: 24px;
+  color: #e11010;
+  cursor: pointer;
+  border: none;
+}
+
+.close-popup-button:hover {
+  color: rgb(218, 129, 78);
+}
+
+.food-beverage-popup h3 {
+  margin-top: -26px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.food-beverage-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.food-beverage-item img {
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.food-beverage-item span {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.food-beverage-item .title {
+  margin-left: -10px;
+}
+
+.food-beverage-item div {
+  display: flex;
+  align-items: center;
+}
+
+.food-beverage-buttons button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2.5px 5px;
+}
+
+.food-beverage-buttons span {
+  margin: 0 5px;
+  color: #fff;
+}
+
+.food-beverage-price {
+  margin-left: 20px;
+}
+
+.reset-popup-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #2b2e31;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-snacks-button {
+  margin-top: 10px;
+  margin-left: 10%;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.confirm-snacks-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-popup-button:hover {
+  background-color: #1f2225d4;
+}
+
+.total-snack-price {
+  color: white;
+  margin-top: 20px 0px 10px 0px;
+  font-weight: bolder;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.total-snack-price .price {
+  color: yellow;
+  display: inline-block;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 10px;
+  }
+
+  .billing-container {
+    margin: 25px 60px 0px;
+  }
+
+  .billing-container,
+  .seat-container {
+    width: 100%;
+  }
+
+  .seat-container {
+    grid-template-columns: repeat(7, auto);
+  }
+
+  .grid-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit-button,
+  .payment-button {
+    margin: 18px 0px;
+  }
+
+  .billing-contribution {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .billing-contribution span {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .billing-contribution button {
+    padding-left: -10;
+    margin-top: 5px;
+  }
+
+  .showcase {
+    left: 0;
+
+    width: 100%;
+  }
+
+  .discountTimer,
+  .discountTimerends {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+  }
+
+  .seat-container {
+    margin-left: 70px;
+    align-items: center;
+    width: 80%;
+    grid-template-columns: repeat(7, auto);
+  }
+
+  .billing-container {
+    margin: 45px 120px 0px 15px;
+    margin-right: 90px;
+  }
+
+  .billing-contribution span {
+    padding-left: -120px;
+  }
+
+  .food-beverages-button {
+    margin: 30px 0px 30px 0px;
+  }
+}

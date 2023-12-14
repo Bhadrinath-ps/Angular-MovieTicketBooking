@@ -1,0 +1,65 @@
+<!-- <div class="movies">
+  <div class="ticket">
+    <fieldset style="background-color: white" *ngFor="let data of totaldata">
+      <label> Name : {{data.name}}</label>
+      <label> City : {{data.city}}</label>
+      <label> Theatre : {{data.theatre}}</label>
+      <label> Movie : {{data.movie_selection}}</label>
+      <label> Date : {{data.date}}</label>
+      <label> Slot : {{data.time_slot}}</label>
+      <label> Seat : {{data.seats}}</label>
+      <div *ngFor="let dat of data.seatData">
+        <label> Seat-Num : {{dat.row}}{{dat.column}}</label>
+      </div>
+      <label> Price : {{data.totalPrice | currency:'INR':'symbol':'1.0'}}</label>
+      <label> ID : {{data.id}}</label>
+    </fieldset>
+  </div>
+</div> -->
+
+<body>
+  <div class="ticket">
+
+    <fieldset *ngFor="let data of totaldata">
+      <div class="trash" *ngIf="data.status === 'Expired'" (click)="deleteTicket(data.id)"><i class="fa fa-trash"></i>
+      </div>
+      <div class="print" (click)="print()"><i class="fa fa-print"></i></div>
+      <div class="header">
+        <h2>{{data.name | uppercase}}</h2>
+        <p class="email">{{data.email}}</p>
+        <p class="status">---{{ data.status }}---</p>
+      </div>
+      <div class="movie-details">
+        <h3>Movie : {{data.movie_selection}}</h3>
+        <p>Date : {{data.date}}</p>
+        <p>Show Time : {{data.time_slot}}</p>
+        <p>Venue : {{data.theatre}}, {{data.city}}</p>
+      </div>
+      <div class="seat-details">
+        <h3>Seat Details</h3>
+        <p>Seat Count : {{data.seats}}</p>
+        <div *ngFor="let dat of data.seatData">
+          <p>Seat Number : {{dat.row}}{{dat.column}}</p>
+        </div>
+        <p>Price : {{data.totalPrice | currency:'INR':'symbol':'1.0'}}</p>
+      </div>
+
+    </fieldset>
+
+    <div *ngIf="totaldata.length > 0 else noTickets">
+      <div class="ticket" *ngFor="let data of totaldata"> </div>
+    </div>
+  </div>
+
+  <ng-template #noTickets>
+    <div class="no-tickets-message">
+      <img src="/assets/images/TicketGenerate-NoTickets.png" alt="No Tickets Image"> <!-- Replace with your image URL -->
+      <h3>No Tickets Were Booked</h3>
+      <p>Oops! It seems you haven't booked any tickets yet.</p>
+      <p>Book your tickets now and enjoy the show!</p>
+      <button routerLink="/">Book Tickets</button>
+    </div>
+  </ng-template>
+
+
+</body>

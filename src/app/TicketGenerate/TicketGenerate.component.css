@@ -1,0 +1,197 @@
+/* label {
+  display: block;
+} */
+
+/*
+.movies {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .grid {
+  display: grid;
+  grid-template-rows: auto auto;
+} */
+
+
+body {
+  background: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+  margin: 0;
+  padding: 0;
+  height: 81%;
+}
+
+.no-tickets-message {
+  font-size: 24px;
+  color: #37d4c4;
+  text-align: center;
+  width: 150%;
+  background-color: #000000c2;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(33, 32, 32, 0.3);
+  margin: 125px 0px 0px 125%;
+}
+
+.no-tickets-message img {
+  width: 150px;
+  margin-bottom: -10px;
+}
+
+.no-tickets-message h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: #f0e68c;
+  margin-bottom: 5px;
+}
+
+.no-tickets-message p {
+  color: #516efd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.no-tickets-message button {
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  background-color: #f01515;
+  border-radius: 30px;
+  font-size: large;
+  border: rgba(218, 22, 22, 0.874);
+  transition: background-color 0.3s ease;
+  margin: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.no-tickets-message button:hover {
+  background-color: #b70000b2;
+}
+
+@media screen and (max-width: 600px) {
+  .no-tickets-message {
+    width: 80%;
+  }
+}
+
+.ticket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 13px;
+  column-gap: 8px;
+  padding-left: 10px;
+}
+
+.print,
+.trash {
+  color: rgb(115, 192, 195);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.print {
+  margin: 10px 0px 0px 300px;
+}
+
+.trash {
+  position: absolute;
+  margin: 10px 0px 0px 8px;
+}
+
+fieldset {
+  border-radius: 20px;
+  border: 3px dashed #ccc;
+  background-color: rgba(45, 2, 25, 0.653);
+  margin-top: 8px;
+  width: 325px;
+}
+
+.header {
+  margin-top: -25px;
+  text-align: center;
+  color: #ccc;
+}
+
+.movie-details h3 {
+  margin-top: 0;
+  color: white;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.email {
+  margin-top: -22px;
+  color: #ccc;
+  letter-spacing: 5px;
+}
+
+.status {
+  margin-top: 2px;
+  font-weight: 600;
+  color: rgba(218, 22, 22, 0.874);
+  letter-spacing: 1px;
+}
+
+.seat-details h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.movie-details,
+.seat-details {
+  flex-basis: 45%;
+  margin-top: 20px;
+}
+
+.movie-details p,
+.seat-details p {
+  margin: 0;
+  color: white;
+}
+
+@media (max-width: 1300px) {
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .ticket {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 13px;
+    column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .movie-details,
+  .seat-details {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+<head>
+  <title>Contact Us</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3172/3172555.png" type="image/x-icon">
+</head>
+
+<!-- <script>
+  function submitted() {
+    alert("Thanks for your valuable feedback...");
+  }
+</script> -->
+
+<body>
+
+  <!-- <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px;">
+    <strong>
+      <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+    </strong>
+  </header>
+
+  <ul>
+    <li><a routerLink="/">HOME</a></li>
+    <li><a routerLink="/Theatre">THEATRE</a></li>
+    <li><a routerLink="/ContactUs">CONTACT US</a></li>
+    <li><a routerLink="/Login">LOGIN</a></li>
+  </ul> -->
+
+  <form id="form" [formGroup]="contactUs" (ngSubmit)="cu_form()">
+    <fieldset>
+      <legend>
+        <h2 style="color:White;">CONTACT US </h2>
+      </legend>
+
+      <h4 class="msg">
+        LEAVE A MESSAGE
+      </h4>
+
+      <pre>
+      If you have a question regarding our services, feel free
+                    to contact us using the form below.
+      </pre>
+
+      <div class="input-box">
+        <input type="text" id="Name" name="Name" placeholder="  Enter Your Name" formControlName="name">
+        <input type="email" id="Email" name="Email" placeholder=" Enter Your Email" formControlName="email">
+        <input type="number" id="Phone" name="Phone" placeholder=" Enter Your Phone" formControlName="phone">
+      </div>
+
+      <div class="input-box-query">
+        <textarea name="Message" rows="4" cols="79" id="Message" placeholder=" Type Your Query Here"
+          formControlName="query"></textarea>
+      </div>
+
+      <div>
+        <button class="btn" [disabled]="!contactUs.valid" (click)="openPopup()"> Submit Message </button>
+      </div>
+
+    </fieldset>
+  </form>
+
+  <div class="popup" *ngIf="isPopupOpen">
+    <div class="popup-content">
+      <img src="https://cdn-icons-png.flaticon.com/512/753/753318.png">
+
+      <i (click)="closePopup()" class="fa fa-close"></i>
+
+      <h1>Thank you for your feedback!</h1>
+      <h4> We appreciate your input and will consider it for future improvements. Feel free to
+        reach out to us directly with any further suggestions or comments.</h4>
+
+      <button class="popbtn" (click)="closePopup()">Close</button>
+
+    </div>
+  </div>
+
+</body>
+
+<footer class="copyrights">
+  <p><span><i class="fa-solid fa-copyright"></i></span> 2023 Movie Grip. All rights reserved &nbsp;&nbsp;&nbsp; |
+    &nbsp;&nbsp;&nbsp;
+    <span><i class="fa-solid fa-user-tie"></i></span>
+    Designed by Bhadrinath P S &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+    <span><i class="fa-solid fa-phone"></i></span>
+    Phone :
+    <a style="color:aliceblue;text-decoration: none;" href="tel:+91 6374579499">+91 6374579499 , </a>
+    <a style="color:aliceblue;text-decoration: none;" href="tel:+91 7871223114">+91 7871223114</a> &nbsp;&nbsp;&nbsp;
+    |
+    &nbsp;&nbsp;&nbsp;
+    <span><i class="fa-solid fa-envelope"></i></span>
+    Mail : <a style="color:aliceblue;text-decoration: none;" href="mailto:moviegrip@gmail.com">moviegrip@gmail.com</a>
+  </p>
+</footer>

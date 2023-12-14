@@ -1,0 +1,96 @@
+<div class="abc">
+
+  <body>
+
+    <div class="login-form">
+      <fieldset>
+        <legend>WELCOME</legend>
+
+        <form class="container" [formGroup]="loginForm" (ngSubmit)="login()">
+
+          <div class="form-control">
+            <label for="Email"></label>
+            <input type="email" name="email" placeholder="Email" formControlName="email">
+          </div>
+
+          <div class="error" *ngIf="loginForm.controls['email'].invalid && loginForm.controls['email'].touched">
+            <small *ngIf="loginForm.controls['email'].errors?.['required']">Please Enter Email ID</small>
+            <small *ngIf="loginForm.controls['email'].errors?.['pattern']">Invalid Email ID</small>
+          </div>
+
+          <div class="form-control">
+            <label for="Password"></label>
+            <input [type]="showPassword? 'text':'password'" name="password" placeholder="Password" formControlName="password">
+            <i (click)="toggleShow()" class="fa-solid fa-eye eye" *ngIf="!showPassword"></i>
+            <i (click)="toggleShow()" class="fa-solid fa-eye-slash eye" *ngIf="showPassword"></i>
+          </div>
+
+          <div class="error" *ngIf="loginForm.controls['password'].invalid && loginForm.controls['password'].touched">
+            <small *ngIf="loginForm.controls['password'].errors?.['required']">Please Enter Password</small>
+            <small *ngIf="loginForm.controls['password'].errors?.['pattern']">Invalid Password</small>
+          </div>
+
+          <button class="BUTTON" [disabled]="!loginForm.valid">Login</button>
+
+          <a class="forgotpass" (click)="openPopup()">
+            <p>Forgot Password?</p>
+          </a>
+
+          <hr class="hrtag">
+
+          <p class="signup"> Don't have an account? <a class="forgotpass" routerLink="/Register">Signup</a></p>
+
+        </form>
+      </fieldset>
+    </div>
+
+
+
+  <!-- ForgotPassword -->
+
+  <div class="popup" *ngIf="isPopupOpen">
+    <div class="popup-content">
+      <fieldset>
+        <legend>FORGOT PASSWORD</legend>
+        <i (click)="closePopup()" class="fa fa-close"></i>
+        <form *ngIf="!emailExists" (ngSubmit)="checkEmail()">
+          <div>
+            <label for="email">Enter your email address</label>
+            <input type="email" [(ngModel)]="email" name="email" placeholder="Enter your email address">
+          </div>
+          <div *ngIf="emailNotFound" class="text-danger">Invalid email or email not found</div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+
+        <form *ngIf="emailExists" [formGroup]="resetpass" (ngSubmit)="resetPassword()">
+          <div>
+            <label for="newPassword">New Password</label>
+            <input [type]="showRNPassword? 'text':'password'" id="newPassword" [(ngModel)]="newPassword" formControlName="newPass" placeholder="Enter your New Password">
+            <i (click)="toggleRNPShow()" class="fa-solid fa-eye reset-eye" *ngIf="!showRNPassword"></i>
+            <i (click)="toggleRNPShow()" class="fa-solid fa-eye-slash reset-eye" *ngIf="showRNPassword"></i>
+          </div>
+
+          <div class="text-danger" *ngIf="resetpass.controls['newPass'].invalid&&resetpass.controls['newPass'].touched">
+            <div *ngIf="resetpass.controls['newPass'].errors?.['required']">Please Enter Password</div>
+            <div *ngIf="resetpass.controls['newPass'].errors?.['pattern']">Password is weak</div>
+          </div>
+
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input [type]="showRNCPassword? 'text':'password'" [(ngModel)]="confirmPassword" formControlName="confirmPass" placeholder="Enter your Confirm Password">
+            <i (click)="toggleRNCPShow()" class="fa-solid fa-eye reset-eye" *ngIf="!showRNCPassword"></i>
+            <i (click)="toggleRNCPShow()" class="fa-solid fa-eye-slash reset-eye" *ngIf="showRNCPassword"></i>
+            <div *ngIf="passwordsDoNotMatch()" class=   "text-danger" style="margin-bottom: -5px;">Passwords do not match</div>
+          </div>
+          <div>
+            <button type="submit" [disabled]="!resetpass.valid">Update Password</button>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </div>
+
+  </body>
+</div>
