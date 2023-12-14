@@ -2,9 +2,7 @@
 
 ## Project Overview 🌐
 
-- **Movie Grip** is a sophisticated Online Movie Ticket Booking System developed using Angular.
-- Provides users with a seamless and intuitive platform to browse, select, and book movie tickets.
-- Focuses on delivering an exceptional user experience with responsive design and real-time updates.
+**Movie Grip** is a sophisticated Online Movie Ticket Booking System developed using Angular. It provides users with a seamless and intuitive platform to browse, select, and book movie tickets. It focuses on delivering an exceptional user experience with responsive design and real-time updates.
 
 ## Technologies Used 🛠️
 
@@ -37,7 +35,7 @@ Access the application at [http://localhost:4200](http://localhost:4200)
 
 ## Demo Link 🚀
 
-Explore the Movie Grip application: [Movie Grip Demo](#) *(Replace with your actual demo link)*
+Explore the Movie Grip application: [Movie Grip Demo](#)
 
 ## Note 📝
 
