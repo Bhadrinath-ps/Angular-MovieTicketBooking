@@ -1,4 +1,4 @@
-# Movie Grip - 🍿🎬 Online Movie Ticket Booking System
+# Movie Grip - 🎬🍿 Online Movie Ticket Booking System
 
 ## Project Overview 🌐
 
