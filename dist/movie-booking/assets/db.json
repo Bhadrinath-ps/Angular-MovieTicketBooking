@@ -1,0 +1,3337 @@
+{
+  "registration": [
+    {
+      "profilepic": "/assets/images/Profile/Profile-UserImage.jpg",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "phone": 7871223114,
+      "password": "Admin@123",
+      "cpassword": "Admin@123",
+      "role": "admin",
+      "id": 1,
+      "phoneno": 7871223114
+    },
+    {
+      "profilepic": "/assets/images/Profile/Badhri.png",
+      "username": "Bhadri",
+      "email": "bhadri@gmail.com",
+      "phone": "6374579499",
+      "password": "Badhri@17",
+      "cpassword": "Badhri@17",
+      "id": 2
+    },
+    {
+      "profilepic": "/assets/images/Profile/Profile-UserImage.jpg",
+      "username": "Ganesh",
+      "email": "ganesh69@gmail.com",
+      "phone": 9080390081,
+      "password": "Abcd@123",
+      "cpassword": "Abcd@123",
+      "id": 3
+    },
+    {
+      "profilepic": "/assets/images/Profile/Profile-UserImage.jpg",
+      "username": "Kavitha",
+      "email": "kavi21@gmail.com",
+      "phone": 9894022156,
+      "password": "Kavi@2126",
+      "cpassword": "Kavi@2126",
+      "id": 4
+    },
+    {
+      "profilepic": "/assets/images/Profile/Profile-UserImage.jpg",
+      "username": "Arun Kumar",
+      "email": "arunk@gmail.com",
+      "phone": 9353456345,
+      "password": "Arunk@123",
+      "cpassword": "Arunk@123",
+      "id": 5
+    },
+    {
+      "profilepic": "/assets/images/Profile/Profile-UserImage.jpg",
+      "username": "Bhavatharani",
+      "email": "dharani15@gmail.com",
+      "phone": 9361160774,
+      "password": "Dhaaru$15",
+      "cpassword": "Dhaaru$15",
+      "id": 6
+    }
+  ],
+  "totaldata": [
+    {
+      "email": "bhadri@gmail.com",
+      "password": "Badhri@17",
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "theatre": "Mayajaal Multiplex",
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-05-03",
+      "time_slot": "10:00am",
+      "seats": 2,
+      "totalPrice": 300,
+      "seatData": [
+        {
+          "row": 1,
+          "column": 6
+        },
+        {
+          "row": 3,
+          "column": 6
+        }
+      ],
+      "name": "Bhadri",
+      "ccv": "123",
+      "cardnumber": "1231231231231231",
+      "month_and_year": "2023-06",
+      "id": 1
+    },
+    {
+      "email": "ganesh69@gmail.com",
+      "password": "Badhri@17",
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "theatre": "Mayajaal Multiplex",
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-05-08",
+      "time_slot": "10:00am",
+      "seats": 2,
+      "totalPrice": 300,
+      "seatData": [
+        {
+          "row": 1,
+          "column": 6
+        },
+        {
+          "row": 3,
+          "column": 6
+        }
+      ],
+      "name": "Ganesh",
+      "ccv": "123",
+      "cardnumber": "1231231231231231",
+      "month_and_year": "2023-06",
+      "id": 2
+    },
+    {
+      "email": "kavi21@gmail.com",
+      "password": "Kavi@2126",
+      "state": "Tamil Nadu",
+      "city": "Salem",
+      "theatre": "Inox Cinemas Salem",
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-05-06",
+      "time_slot": "10:00am",
+      "seats": 3,
+      "totalPrice": 450,
+      "seatData": [
+        {
+          "row": 0,
+          "column": 4
+        },
+        {
+          "row": 0,
+          "column": 5
+        },
+        {
+          "row": 0,
+          "column": 6
+        }
+      ],
+      "name": "Kavitha",
+      "ccv": "123",
+      "cardnumber": "1234567890123456",
+      "month_and_year": "2023-03",
+      "id": 3
+    },
+    {
+      "seats": 2,
+      "totalPrice": 340,
+      "seatData": [
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "email": "dharani15@gmail.com",
+      "movie_selection": "Luca",
+      "date": "2023-08-05",
+      "time_slot": "10:00am",
+      "city": "Salem",
+      "theatre": "Kailash Prakash Theatre",
+      "name": "Bhavatharani",
+      "ccv": "123",
+      "cardnumber": "1000000000000012",
+      "month_and_year": "2023-08",
+      "id": 5
+    }
+  ],
+  "contact_us": [
+    {
+      "name": "Ganesh Mugunthan",
+      "email": "ganesh69@gmail.com",
+      "phone": 9080390081,
+      "query": "This website was good. But bookseat page is only had issues. Kindly correct that.",
+      "id": 1
+    },
+    {
+      "name": "Bhavatharani",
+      "email": "dharani15@gmail.com",
+      "phone": 9361160774,
+      "query": "Your booking site impressed me with its user-friendly interface. Thank you for a fantastic experience!",
+      "id": 2
+    },
+    {
+      "name": "Kavitha Jo",
+      "email": "kavi21@gmail.com",
+      "phone": 9894022156,
+      "query": "Good site. Really like it. :-)",
+      "id": 3
+    }
+  ],
+  "movieNowShowing": [
+    {
+      "pic": "/assets/images/MoviesNowShowing/Luca/Luca_Intro.jpg",
+      "background": "/assets/images/MoviesNowShowing/Luca/Luca_Background.jpg",
+      "title": "Luca",
+      "link": "Luca-Info",
+      "year_duration": "2021 * PG * 1h 35m",
+      "imdb": "7.5/10",
+      "popularity": "1,198 ^ 43",
+      "movieimg": "/assets/images/MoviesNowShowing/Luca/Luca_Poster.jpg",
+      "movievid": "/assets/video/Y2Mate_is_-_Disney_and_Pixar’s_Luca__Official_Trailer__Disney_-mYfJxlgR2jw-1080p-1654358748517_AdobeExpress_AdobeExpress.mp4",
+      "description1": "Set in a beautiful seaside town on the Italian Riviera, Disney and Pixar's original feature film LUCA is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides.",
+      "description2": "Luca (voice of Jacob Tremblay) shares these adventures with his newfound best friend, Alberto (voice of Jack Dylan Grazer) but all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water's surface.",
+      "castpic1": "/assets/images/MoviesNowShowing/Luca/Luca_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesNowShowing/Luca/Luca_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesNowShowing/Luca/Luca_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesNowShowing/Luca/Luca_Cast4.jpg",
+      "castname1": "Jacob Tremblay",
+      "castname2": "Maya Rudolph",
+      "castname3": "Jack Dylan Grazer",
+      "castname4": "Jim Gaffigan",
+      "castname11": " as Luca Paguro",
+      "castname22": " as Daniela",
+      "castname33": " as Alberto Scorfano",
+      "castname44": " as Lorenzo",
+      "reviewpic1": "/assets/images/MoviesNowShowing/Luca/Luca_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesNowShowing/Luca/Luca_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesNowShowing/Luca/Luca_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesNowShowing/Luca/Luca_Reviewer4.jpg",
+      "reviewname1": "Rosie Brayant",
+      "reviewname2": "Erick Estrada",
+      "reviewname3": "Daniel Howatt",
+      "reviewname4": "Shandrah Hall",
+      "reviewdes1": "Luca will be utterly endearing for kids but may be a bit hit and miss for everyone else. it is great news for film nerds and wonder-starved kids.",
+      "reviewdes2": "Luca conveys the feeling of that who goes to school for the first time and those who see that human-in-the-making going to school for the first time.",
+      "reviewdes3": "Luca is pure joy. It's lighter than most Pixar movies, but it's bursting with energy and life. Luca will have you smiling from ear to ear.",
+      "reviewdes4": "It's full of energy and the diligence of those researchers has paid off in its settings which are seductive -- and even more important.",
+      "id": 1
+    },
+    {
+      "pic": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Intro.jpg",
+      "background": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Background.jpg",
+      "title": "How To Train Your Dragon",
+      "link": "HowToTrainYourDragon-Info",
+      "year_duration": "2019 * PG * 1h 44m",
+      "imdb": "7.4/10",
+      "popularity": "2,879 ^ 165",
+      "movieimg": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Poster.jpg",
+      "movievid": "/assets/video/y2mate_com_-_HOW_TO_TRAIN_YOUR_DRAGON_THE_HIDDEN_WORLD__Official_Trailer_1080p_AdobeExpress (2).mp4",
+      "description1": "Hiccup (Jay Baruchel) is a Norse teenager from the island of Berk, where fighting dragons is a way of life. His progressive views and weird sense of humor make him a misfit, despite the fact that his father (Gerard Butler) is chief of the clan.",
+      "description2": "Tossed into dragon-fighting school, he endeavors to prove himself as a true Viking, but when he befriends an injured dragon he names Toothless, he has the chance to plot a new course for his people's future.",
+      "castpic1": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Cast4.jpg",
+      "castname1": "Jay Baruchel",
+      "castname2": "Gerard Butler",
+      "castname3": "Craig Ferguson",
+      "castname4": "America Ferrera",
+      "castname11": " as Hiccup",
+      "castname22": " as Stoick",
+      "castname33": " as Gobber",
+      "castname44": "  as Astrid",
+      "reviewpic1": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesNowShowing/HowToTrainYourDragon/HowToTrainYourDragon_Reviewer4.jpg",
+      "reviewname1": "Joe Morgensi",
+      "reviewname2": "Johnie Oleke",
+      "reviewname3": "Britney Mori",
+      "reviewname4": "Lonita Cooke",
+      "reviewdes1": "The film feels like it's flying on empty. This is clearly the end of the franchise, one that gave great pleasure and stayed on too long.",
+      "reviewdes2": "If you love this series, it will really please you, where these characters end up. Not as interesting as the first two, but still a damn good movie.",
+      "reviewdes3": "And although it's sad to know that this will be the final act in this journey, the ending is one that will certainly leave audiences with smiles on their faces.",
+      "reviewdes4": "You have all these photorealistic details in the background. If you like, you can see every grain of sand or every hair on the cheek of a character. It's just that realistic!",
+      "id": 2
+    },
+    {
+      "pic": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Intro.jpg",
+      "background": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Background.jpg",
+      "title": "Toy Story",
+      "link": "ToyStory-Info",
+      "year_duration": "2019 * G * 1h 40m",
+      "imdb": "7.7/10",
+      "popularity": "1,533 ^ 97",
+      "movieimg": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Poster.jpg",
+      "movievid": "/assets/video/y2mate_com_-_Toy_Story_4__Official_Trailer_1080p_AdobeExpress.mp4",
+      "description1": "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+      "description2": "Woody, Buzz and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woody's slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that they're two worlds apart when it comes to what they want from life as a toy.",
+      "castpic1": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Cast4.jpg",
+      "castname1": "Tom Hanks",
+      "castname2": "Tim Allen",
+      "castname3": "Joan Cusack",
+      "castname4": "Annie Potts",
+      "castname11": " as Woody",
+      "castname22": " as Buzz Lightyear",
+      "castname33": " as Jessie",
+      "castname44": " as Bo Peep",
+      "reviewpic1": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesNowShowing/ToyStory/ToyStory_Reviewer4.jpg",
+      "reviewname1": "Arnald A Dow",
+      "reviewname2": "Stephen Romi",
+      "reviewname3": "Brian D Egert",
+      "reviewname4": "David Gonalei",
+      "reviewdes1": "Toy Story 4 is so fast and light on its feet that it's easy to ignore that it's a pretty minor adventure. Not absolute top-flight Pixar. No embarrassment either.",
+      "reviewdes2": "This fourth Toy Story is the directorial debut of American animator, screenwriter and voice actor Josh Cooley. He does his best with what he has, but the script lacks spark.",
+      "reviewdes3": "Toy Story 4's willingness to go to strange and dark places is part of its charm. It’s a family film that will surely leave audiences walking out feeling very emotional.",
+      "reviewdes4": "I found myself sobbing at the films conclusion because Toy Story 4 showed us it was only Andys story that was complete. The toys story concluded with this film.",
+      "id": 3
+    },
+    {
+      "pic": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Intro.jpg",
+      "background": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Background.jpg",
+      "title": "The Croods",
+      "link": "TheCroods-Info",
+      "year_duration": "2019 * PG * 1h 35m",
+      "imdb": "6.9/10",
+      "popularity": "2,797 ^ 305",
+      "movieimg": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Poster.jpg",
+      "movievid": "/assets/video/y2mate_com_-_THE_CROODS_A_NEW_AGE__Official_Trailer_1080p_AdobeExpress_AdobeExpress.mp4",
+      "description1": "Still searching for a place to settle down after the cataclysmic events of The Croods (2013), the in an increasingly dangerous world, while trying to come to terms with Eep and Guy's budding romance, Grug stumbles upon a secluded Eden of plenty, containing everything that they have been seeking.",
+      "description2": "However, there is a catch. This verdant heaven on Earth is already occupied by the significantly more evolved Bettermans: Phil, Hope, and their daughter, Dawn. Now, as tensions boil over between the antagonistic clans, a new menace threatens the future of both families.",
+      "castpic1": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Cast4.jpg",
+      "castname1": "Nicolas Cage",
+      "castname2": "Ryan Reynolds",
+      "castname3": "Emma Stone",
+      "castname4": "Leslie Mann",
+      "castname11": " as Grug",
+      "castname22": " as Guy",
+      "castname33": " as Eep",
+      "castname44": " as Hope Betterman",
+      "reviewpic1": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesNowShowing/TheCroods/TheCroods_Reviewer4.jpg",
+      "reviewname1": "Cody Dericks",
+      "reviewname2": "Rosie Bryant",
+      "reviewname3": "Cath Clarkie",
+      "reviewname4": "Claris Lough",
+      "reviewdes1": "The film’s moments of joy have the unintended effect of underlining and illuminating its duller parts. It lacks the simple charm of its predecessor.",
+      "reviewdes2": "The Croods : A New Age retains the cheerful comedic charm of the franchise’s first installment while still feeling fresh and fun for 2020.",
+      "reviewdes3": "A new age? Not really, but this sequel does feel like a rung up on the evolutionary ladder from 2013's The Croods.",
+      "reviewdes4": "In defiance of this vague sense of pointlessness, The Croods: A New Age manages to feel like a genuine creative endeavour and not a last resort.",
+      "id": 4
+    }
+  ],
+  "movieUpcoming": [
+    {
+      "pic": "/assets/images/MoviesUpcoming/Onward/Onward_Intro.jpg",
+      "background": "/assets/images/MoviesUpcoming/Onward/Onward_Background.jpg",
+      "title": "Onward",
+      "link": "Onward-Info",
+      "year_duration": "2020 * PG * 1h 4m",
+      "imdb": "7.4/10",
+      "popularity": "2,803 ^ 576",
+      "movieimg": "/assets/images/MoviesUpcoming/Onward/Onward_Poster.jpg",
+      "movievid": "/assets/video/Onward___Official_Trailer_1080P_HD__AdobeExpress_AdobeExpress.mp4",
+      "description1": "In a suburban fantasy world, two teenage elf brothers, Ian and Barley, go on a journey to discover if there is still a little magic left out there in order to spend one last day with their father, who died when they were too young to remember him. Like any good quest, their journey is filled with  magic spells, impossible obstacles and unimaginable discoveries.",
+      "description2": "When the boys' fearless mom, Laurel, realizes that her sons are missing, she teams up with the legendary winged-lion-scorpion former warrior. The Manticore and heads off to find them. Perilous curses aside, this one magical day could mean more than any of them ever dreamed.",
+      "castpic1": "/assets/images/MoviesUpcoming/Onward/Onward_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesUpcoming/Onward/Onward_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesUpcoming/Onward/Onward_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesUpcoming/Onward/Onward_Cast4.jpg",
+      "castname1": "Tom Holland",
+      "castname2": "Chris Pratt",
+      "castname3": "John",
+      "castname4": "Julia Louis",
+      "castname11": " as Lan Lightfoot",
+      "castname22": " as Barley Lightfoot",
+      "castname33": " as John Lightfoot",
+      "castname44": " as Laurel Lightfoot",
+      "reviewpic1": "/assets/images/MoviesUpcoming/Onward/Onward_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesUpcoming/Onward/Onward_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesUpcoming/Onward/Onward_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesUpcoming/Onward/Onward_Reviewer4.jpg",
+      "reviewname1": "Cody Dericks",
+      "reviewname2": "Jefrey Harris",
+      "reviewname3": "Roxana Hani",
+      "reviewname4": "Wenlei Mary",
+      "reviewdes1": "The film’s moments of joy have the unintended effect of underlining and illuminating its duller parts. It lacks the simple charm of its predecessor.",
+      "reviewdes2": "Onward has its issues and pacing problems, but once it gets out of the first act, this journey about the bond of brotherhood is on par with some of Pixar's best.",
+      "reviewdes3": "Onward feels a bit more subdued than a typical Pixar affair, and while the movie wears its heart on its sleeve, it might not be quite as engaging for younger viewers.",
+      "reviewdes4": "There's a lot to like in Onward, the least of which is its bright, appealing animation, but you wouldn't expect anything less from an outfit as accomplished as Pixar.",
+      "id": 1
+    },
+    {
+      "pic": "/assets/images/MoviesUpcoming/Coco/Coco_Intro.jpg",
+      "background": "/assets/images/MoviesUpcoming/Coco/Coco_Background.jpg",
+      "title": "Coco",
+      "link": "Coco-Info",
+      "year_duration": "2017 * G * 1h 45m",
+      "imdb": "8.4/10",
+      "popularity": "912 ^ 99",
+      "movieimg": "/assets/images/MoviesUpcoming/Coco/Coco_Poster.jpg",
+      "movievid": "/assets/video/Coco_Official_Final_Trailer_1080P_HD__AdobeExpress (3).mp4",
+      "description1": "An aspiring young guitar player, whose family has a classic hate for music, tries to find answers of his great Grandfather, which leads his search to his entrance to Tierra De Muertos, where all dead people get to live if they are remembered well.",
+      "description2": "Despite his family's baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story.",
+      "castpic1": "/assets/images/MoviesUpcoming/Coco/Coco_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesUpcoming/Coco/Coco_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesUpcoming/Coco/Coco_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesUpcoming/Coco/Coco_Cast4.jpg",
+      "castname1": "Anthony Gonzalez",
+      "castname2": "Gael Garcia Bernal",
+      "castname3": "Benjamin Bratt",
+      "castname4": "Renee Victor",
+      "castname11": " as Miguel Rivera",
+      "castname22": " as Hector",
+      "castname33": " as Ernesto de la Cruz",
+      "castname44": " as Abuelita",
+      "reviewpic1": "/assets/images/MoviesUpcoming/Coco/Coco_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesUpcoming/Coco/Coco_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesUpcoming/Coco/Coco_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesUpcoming/Coco/Coco_Reviewer4.jpg",
+      "reviewname1": "Briean D Egert",
+      "reviewname2": "David Gonzalez",
+      "reviewname3": "Nathan Mattise",
+      "reviewname4": "Robert Daniels",
+      "reviewdes1": "Coco is a film that reminds us of the effect and importance of mise-en-scène, even when it has been assembled by animators and computers. Coco bursts with color and life.",
+      "reviewdes2": "An unexpectedly brilliant and dynamic story about lineage, connection, and self-discovery. I don't think there's any question that Coco is really great.",
+      "reviewdes3": "It's just about a perfect combination of heart and authenticity (to a culture and place) in a story that delivers laughs, gasps, and sniffles in ample amounts.",
+      "reviewdes4": "In a country with an ever increasing Hispanic and Mexican population, a film like Coco should have come around a long time ago.",
+      "id": 2
+    },
+    {
+      "pic": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Intro.jpg",
+      "background": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Background.jpg",
+      "title": "The Mitchells Vs The Machines",
+      "link": "TheMitchellsVsTheMachines-Info",
+      "year_duration": "2021 * PG * 1h 54m",
+      "imdb": "7.6/10",
+      "popularity": "1,727 ^ 333",
+      "movieimg": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Poster.jpg",
+      "movievid": "/assets/video/The_Mitchells_vs__The_Machines___Official_Trailer___Netflix_1080P_HD__AdobeExpress (3).mp4",
+      "description1": "An animated action-comedy about an ordinary family who find themselves in the middle of their biggest family challenge yet. Saving the world from the robot apocalypse. It all starts when creative outsider Katie Mitchell is accepted into the film school of her dreams and is eager to leave home. when her nature-loving dad insists on having the whole family drive her to school and bond during one last totally-not-awkward-or-forced road trip.",
+      "description2": "But just when the trip can't get any worse, the family suddenly finds itself in the middle of the robot uprising. Everything from smart phones, to evil Furbys are employed to capture every human on the planet. Now it's up to the Mitchells, but simple-minded robots to save humanity.",
+      "castpic1": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Cast4.jpg",
+      "castname1": "Abbi Jacobson",
+      "castname2": "Maya Rudolph",
+      "castname3": "Olivia Colman",
+      "castname4": "Fred Armisen",
+      "castname11": " as Katie",
+      "castname22": " as Linda Mitchell",
+      "castname33": " as PAL",
+      "castname44": " as Deborahbot",
+      "reviewpic1": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesUpcoming/TheMitchellsVsTheMachines/TheMitchellsVsTheMachines_Reviewer4.jpg",
+      "reviewname1": "Richard Wit",
+      "reviewname2": "Rose Bryant",
+      "reviewname3": "Damian Lev",
+      "reviewname4": "Jodie Harey",
+      "reviewdes1": "Putting the fun in dysfunction is what The Mitchells vs. The Machines is about, and what family doesn't have some issues?",
+      "reviewdes2": "The Mitchells vs. the Machines is a fun, family-friendly subversion of “sci-fi disaster” stories with a wholly compelling emotional core and vibrant voice work.",
+      "reviewdes3": "Whether it's tears of joy or tears of sadness, Mitchells vs the Machines will have you shedding a few of either or both.",
+      "reviewdes4": "In its celebration of these characters... this film demonstrates how indispensable every single one of us is, and how much those living with disabilities have to offer the world.",
+      "id": 3
+    },
+    {
+      "pic": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Intro.jpg",
+      "background": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Background.jpg",
+      "title": "Zootopia",
+      "link": "Zootopia-Info",
+      "year_duration": "2016 * PG * 1h 48m",
+      "imdb": "8.0/10",
+      "popularity": "730 ^ 3",
+      "movieimg": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Poster.jpg",
+      "movievid": "/assets/video/Zootopia_Official_US_Trailer__2_1080P_HD__AdobeExpress (3).mp4",
+      "description1": "From the largest elephant to the smallest shrew, the city of Zootopia is a mammal metropolis where various animals live and thrive. When Judy Hopps becomes the first rabbit to join the police force, she quickly learns how tough it is to enforce the law.",
+      "description2": "Determined to prove herself, Judy jumps at the opportunity to solve a mysterious case. Unfortunately, that means working with Nick Wilde, a wily fox who makes her job even harder. In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+      "castpic1": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Cast1.jpg",
+      "castpic2": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Cast2.jpg",
+      "castpic3": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Cast3.jpg",
+      "castpic4": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Cast4.jpg",
+      "castname1": "Idris Elba",
+      "castname2": "Jason Bateman",
+      "castname3": "Alan Tudyk",
+      "castname4": "Jenny Slate",
+      "castname11": " as Chief Bogo",
+      "castname22": " as Nick Wilde",
+      "castname33": " as Duke Weaselton",
+      "castname44": " as Bellwether",
+      "reviewpic1": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Reviewer1.jpg",
+      "reviewpic2": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Reviewer2.jpg",
+      "reviewpic3": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Reviewer3.jpg",
+      "reviewpic4": "/assets/images/MoviesUpcoming/Zootopia/Zootopia_Reviewer4.jpg",
+      "reviewname1": "Kip Mooneyy",
+      "reviewname2": "Hosea Ruppe",
+      "reviewname3": "Theres Lason",
+      "reviewname4": "Roxana Hada",
+      "reviewdes1": "Builds a fully realized world, lands almost all its jokes and teaches valuable lessons, thought provoking and funny. With time, it may actually reveal itself to be genius.",
+      "reviewdes2": "I have to be honest and say that I actually liked Zootopia, despite its flaws, and laughed my head off at some parts.",
+      "reviewdes3": "It's got all the hallmarks of a great animated movie, and it doesn't fail to get laughs and give you that warm happy feeling that an inspiring film should.",
+      "reviewdes4": "Zootopia pulls together various elements - a neo-noir mystery, a buddy-cop comedy, and timely social themes - into a mostly entertaining animated film.",
+      "id": 4
+    }
+  ],
+  "foodBeverages": [
+    {
+      "id": 1,
+      "title": "Popcorn",
+      "price": 90,
+      "quantity": 0,
+      "imageUrl": "/assets/images/BookSeat/Snacks/Popcorn.png"
+    },
+    {
+      "id": 2,
+      "title": "Drink",
+      "price": 70,
+      "quantity": 0,
+      "imageUrl": "/assets/images/BookSeat/Snacks/Pepsi.png"
+    },
+    {
+      "id": 3,
+      "title": "Burger",
+      "price": 50,
+      "quantity": 0,
+      "imageUrl": "/assets/images/BookSeat/Snacks/Burger.png"
+    },
+    {
+      "id": 4,
+      "title": "French Fries",
+      "price": 40,
+      "quantity": 0,
+      "imageUrl": "/assets/images/BookSeat/Snacks/French-Fries.png"
+    }
+  ],
+  "movieseats": [
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 1
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 4
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 6
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 9
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "06:00pm",
+      "id": 11
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "06:00pm",
+      "seatData": [
+        {
+          "id": 26,
+          "row": 3,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 13
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 14
+    },
+    {
+      "movie_selection": "Toy Story",
+      "date": "2023-07-09",
+      "time_slot": "06:00pm",
+      "id": 15
+    },
+    {
+      "movie": "Toy Story",
+      "date": "2023-07-09",
+      "time": "06:00pm",
+      "seatData": [
+        {
+          "id": 27,
+          "row": 3,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 16
+    },
+    {
+      "movie_selection": "Toy Story",
+      "date": "2023-07-10",
+      "time_slot": "06:00pm",
+      "id": 17
+    },
+    {
+      "movie": "Toy Story",
+      "date": "2023-07-10",
+      "time": "06:00pm",
+      "seatData": [
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-10",
+      "time_slot": "10:00am",
+      "id": 19
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-09",
+      "time_slot": "10:00pm",
+      "id": 21
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-09",
+      "time": "10:00pm",
+      "seatData": [
+        {
+          "id": 16,
+          "row": 2,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 22
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-09",
+      "time_slot": "02:00pm",
+      "id": 23
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 24
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-09",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 13,
+          "row": 1,
+          "column": 6,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 43,
+          "row": 6,
+          "column": 1,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": "",
+          "status": "reserved"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 25
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00am",
+      "id": 26
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00am",
+      "id": 28
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 29
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 30
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00am",
+      "id": 31
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 6,
+          "row": 0,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 32
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 7,
+          "row": 0,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 8,
+          "row": 1,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 33
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 9,
+          "row": 1,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 34
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00am",
+      "seatData": [
+        {
+          "id": 10,
+          "row": 1,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 11,
+          "row": 1,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 12,
+          "row": 1,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 35
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 36
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 37
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 38
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 39
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 40
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 41
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 42
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "",
+      "seatData": [
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 43
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 44
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 45
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 46
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "",
+      "seatData": [
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 47
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 48
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 49
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 50
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 51
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 52
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 53
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 54
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 55
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-10",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 56
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-10",
+      "time_slot": "10:00pm",
+      "id": 57
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "02:00pm",
+      "id": 58
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 59
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "02:00pm",
+      "id": 60
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 61
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "02:00pm",
+      "id": 62
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "02:00pm",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 63
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 64
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "02:00pm",
+      "id": 65
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 66
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 67
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 68
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 69
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 70
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 71
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 72
+    },
+    {
+      "city": "Salem",
+      "theatre": "",
+      "id": 73
+    },
+    {
+      "city": "Salem",
+      "theatre": "",
+      "id": 74
+    },
+    {
+      "id": 75
+    },
+    {
+      "city": "Salem",
+      "theatre": "",
+      "id": 76
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 77
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas Salem",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 78
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 79
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 80
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas Salem",
+      "seatData": [
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 3,
+          "row": 0,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 81
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 82
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 83
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 84
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 1,
+          "row": 0,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 2,
+          "row": 0,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 85
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 86
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 87
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 88
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-13",
+      "time_slot": "10:00am",
+      "id": 89
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 90
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 91
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "06:00pm",
+      "id": 92
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-13",
+      "time_slot": "10:00am",
+      "id": 93
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-13",
+      "time": "10:00am",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 41,
+          "row": 5,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 94
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 95
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 50,
+          "row": 7,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 51,
+          "row": 7,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 52,
+          "row": 7,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 53,
+          "row": 7,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 49,
+          "row": 6,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 96
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 97
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 98
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-12",
+      "time_slot": "10:00am",
+      "id": 99
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 100
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-11",
+      "time_slot": "10:00pm",
+      "id": 101
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-11",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 102
+    },
+    {
+      "movie_selection": "The Croods",
+      "date": "2023-07-20",
+      "time_slot": "02:00pm",
+      "id": 103
+    },
+    {
+      "movie": "The Croods",
+      "date": "2023-07-20",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 104
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-16",
+      "time_slot": "10:00am",
+      "id": 105
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time_slot": "10:00pm",
+      "id": 106
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 107
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-16",
+      "time_slot": "10:00pm",
+      "id": 108
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time_slot": "10:00pm",
+      "id": 109
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "seatData": [
+        {
+          "id": 41,
+          "row": 5,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 110
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time_slot": "10:00pm",
+      "id": 111
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 112
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-16",
+      "time_slot": "10:00pm",
+      "id": 113
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 32,
+          "row": 4,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 114
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 115
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-16",
+      "time": "10:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 116
+    },
+    {
+      "movie_selection": "The Croods",
+      "date": "2023-07-17",
+      "time_slot": "02:00pm",
+      "id": 117
+    },
+    {
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 118
+    },
+    {
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 119
+    },
+    {
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 120
+    },
+    {
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 30,
+          "row": 4,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 31,
+          "row": 4,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 32,
+          "row": 4,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 34,
+          "row": 4,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 121
+    },
+    {
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 122
+    },
+    {
+      "seatData": [
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 123
+    },
+    {
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 124
+    },
+    {
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 32,
+          "row": 4,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 125
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-07-18",
+      "time_slot": "02:00pm",
+      "id": 126
+    },
+    {
+      "movie_selection": "Toy Story",
+      "date": "2023-07-18",
+      "time_slot": "02:00pm",
+      "id": 127
+    },
+    {
+      "movie": "Toy Story",
+      "date": "2023-07-18",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 128
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-22",
+      "time_slot": "02:00pm",
+      "id": 129
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-22",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 15,
+          "row": 2,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 130
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-07-25",
+      "time_slot": "06:00pm",
+      "id": 131
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-07-25",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 132
+    },
+    {
+      "movie_selection": "Toy Story",
+      "date": "2023-08-02",
+      "time_slot": "02:00pm",
+      "id": 133
+    },
+    {
+      "movie": "Toy Story",
+      "date": "2023-08-02",
+      "time": "02:00pm",
+      "city": "Chennai",
+      "theatre": "Mayajaal Multiplex",
+      "seatData": [
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 26,
+          "row": 3,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 27,
+          "row": 3,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 35,
+          "row": 4,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 134
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-08-03",
+      "time_slot": "02:00pm",
+      "id": 135
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-08-03",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Aascars Multiplex",
+      "seatData": [
+        {
+          "id": 35,
+          "row": 4,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 136
+    },
+    {
+      "seatData": [
+        {
+          "id": 25,
+          "row": 3,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 137
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-08-04",
+      "time_slot": "06:00pm",
+      "id": 138
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-08-04",
+      "time": "06:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 139
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-08-05",
+      "time_slot": "10:00am",
+      "id": 140
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-08-05",
+      "time": "10:00am",
+      "city": "Salem",
+      "theatre": "Kailash Prakash Theatre",
+      "seatData": [
+        {
+          "id": 22,
+          "row": 3,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 141
+    },
+    {
+      "seatData": [
+        {
+          "id": 15,
+          "row": 2,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 142
+    },
+    {
+      "seatData": [
+        {
+          "id": 24,
+          "row": 3,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 26,
+          "row": 3,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 143
+    },
+    {
+      "seatData": [
+        {
+          "id": 17,
+          "row": 2,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 144
+    },
+    {
+      "seatData": [
+        {
+          "id": 62,
+          "row": 8,
+          "column": 6,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 29,
+          "row": 4,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 145
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-08-11",
+      "time_slot": "10:00am",
+      "id": 146
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-09-04",
+      "time_slot": "10:00pm",
+      "id": 147
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-09-04",
+      "time": "10:00pm",
+      "city": "Chennai",
+      "theatre": "Jazz Cinemas LUXE",
+      "seatData": [
+        {
+          "id": 16,
+          "row": 2,
+          "column": 2,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 18,
+          "row": 2,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 17,
+          "row": 2,
+          "column": 3,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 19,
+          "row": 2,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 148
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-09-04",
+      "time_slot": "10:00pm",
+      "id": 149
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-09-04",
+      "time": "10:00pm",
+      "city": "Chennai",
+      "theatre": "Jazz Cinemas LUXE",
+      "seatData": [
+        {
+          "id": 7,
+          "row": 0,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 8,
+          "row": 1,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 150
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-09-04",
+      "time_slot": "10:00pm",
+      "id": 151
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-09-05",
+      "time_slot": "02:00pm",
+      "id": 152
+    },
+    {
+      "movie_selection": "Luca",
+      "date": "2023-09-04",
+      "time_slot": "10:00pm",
+      "id": 153
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-09-04",
+      "time": "10:00pm",
+      "city": "Chennai",
+      "theatre": "Jazz Cinemas LUXE",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 154
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-09-04",
+      "time": "10:00pm",
+      "city": "Chennai",
+      "theatre": "Jazz Cinemas LUXE",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 155
+    },
+    {
+      "movie": "Luca",
+      "date": "2023-09-04",
+      "time": "10:00pm",
+      "city": "Chennai",
+      "theatre": "Jazz Cinemas LUXE",
+      "seatData": [
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 4,
+          "row": 0,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        },
+        {
+          "id": 5,
+          "row": 0,
+          "column": 5,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 156
+    },
+    {
+      "seatData": [
+        {
+          "id": 7,
+          "row": 0,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 157
+    },
+    {
+      "seatData": [
+        {
+          "id": 8,
+          "row": 1,
+          "column": 1,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 158
+    },
+    {
+      "seatData": [
+        {
+          "id": 14,
+          "row": 1,
+          "column": 7,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 159
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time_slot": "02:00pm",
+      "id": 160
+    },
+    {
+      "movie": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time": "02:00pm",
+      "city": "Salem",
+      "theatre": "Inox Cinemas",
+      "seatData": [
+        {
+          "id": 32,
+          "row": 4,
+          "column": 4,
+          "price": 150,
+          "status": "reserved"
+        }
+      ],
+      "id": 161
+    },
+    {
+      "movie_selection": "How To Train Your Dragon",
+      "date": "2023-12-15",
+      "time_slot": "02:00pm",
+      "id": 162
+    }
+  ]
+}
