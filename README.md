@@ -33,10 +33,6 @@ Access the application at [http://localhost:4200](http://localhost:4200)
   - Real-time updates for an interactive experience.
   - Seamless booking process for a chosen movie.
 
-## Demo Link 🚀
-
-Explore the Movie Grip application: [Movie Grip Demo](#)
-
 ## Note 📝
 
 - Ensure that you have Node.js and Angular CLI installed.
