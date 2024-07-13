@@ -1,0 +1,70 @@
+body {
+    background: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+  }
+
+  fieldset {
+    margin-top: 70px;
+    height: max-content;
+    width: max-content;
+    background-color: rgba(14, 10, 10, 0.886);
+    border-radius: 10px;
+    border-color: rgba(242, 8, 8, 0.916);
+    box-shadow: 0 6px 10px 0 rgba(241, 8, 8, 0.269), 0 8px 22px 0 rgba(211, 9, 9, 0.26);
+  }
+
+  legend {
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 5px;
+  }
+
+  label {
+    font-size: 18px;
+    color: white;
+  }
+
+  input[type="option"], .category{
+    border-radius: 6px;
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"]{
+    padding: 18px;
+    border-radius: 6px;
+    width: 260px;
+    height: 30px;
+  }
+
+  .BUTTON {
+    /* background-color: rgb(255, 255, 255);
+    color: black; */
+    border: 1px solid rgba(254, 4, 4, 0.491);
+    border-radius: 11px;
+    cursor: pointer;
+    width: 40%;
+    padding: 6px;
+    margin: 10px 0px -5px 0px;
+    margin-left: 30%;
+  }
+
+  .BUTTON:hover {
+    background-color: #f44336;
+    color: white;
+  }

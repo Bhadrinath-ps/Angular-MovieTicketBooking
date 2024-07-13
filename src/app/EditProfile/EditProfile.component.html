@@ -1,0 +1,53 @@
+<!-- <body>
+  <h2>Edit Profile</h2>
+  <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" />
+    <label for="email">Email:</label>
+    <input type="text" id="email" formControlName="email" />
+    <label for="phone">phone:</label>
+    <textarea id="phone" formControlName="phoneno"></textarea>
+    <button type="submit">Save</button>
+  </form>
+</body> -->
+
+<body>
+
+  <form class="profile-content">
+    <fieldset>
+      <legend><h2>Profile - edit</h2></legend>
+
+      <div class="previewstyle">
+        <p class="pictureleft">Picture</p>
+        <img src="{{profile.profilepic}}">
+        <p class="previewright">Preview</p>
+      </div>
+
+      <div class="form-group">
+        <label for="pic"></label>
+        <input class="form-control" type="text" [(ngModel)]="profile.profilepic" name="profilepic" #profilepic="ngModel"ngModel placeholder="profilepic">
+      </div>
+
+      <div class="form-group">
+        <label for="pic"></label>
+        <input class="form-control" type="text" [(ngModel)]="profile.username" name="username" #username="ngModel"ngModel placeholder="Username">
+      </div>
+
+      <div class="form-group">
+        <label for="background"></label>
+        <input class="form-control" type="email" [(ngModel)]="profile.email" name="email" #email="ngModel"ngModel placeholder="Email">
+      </div>
+
+      <div class="form-group">
+        <label for="title"></label>
+        <input class="form-control" type="text" [(ngModel)]="profile.phone" name="phone" #phone="ngModel"ngModel placeholder="Phone Number">
+      </div>
+
+      <div>
+        <button class="BUTTON" (click)="updateProfile()">Submit</button>
+      </div>
+
+    </fieldset>
+  </form>
+
+</body>

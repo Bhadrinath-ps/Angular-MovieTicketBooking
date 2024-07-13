@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "height: fit-content",
+          "width: fit-content",
+          "backdrop-filter"
+        ]
+      }
+    ],
+    "axe/text-alternatives": "off",
+    "button-type": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off",
+        "marquee": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/forms": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off",
+        "listitem": "off"
+      }
+    ]
+  }
+}

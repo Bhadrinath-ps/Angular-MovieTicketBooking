@@ -1,0 +1,116 @@
+<head>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3172/3172555.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="background">
+
+    <div class="discountTimer" *ngIf="countdown > 0">
+      <h3> Discount Ends In: {{ formatCountdown() }} </h3>
+    </div>
+    <div class="discountTimerends" *ngIf="countdown <= 0">
+      <h3>Discount ended</h3>
+    </div>
+
+    <div class="movie-details">{{ selectedMovie }} | {{ selectedDate }} | {{ selectedTime | uppercase }} | {{
+      selectedCity }} | {{ selectedTheatre }}</div>
+
+    <div class="container">
+      <div class="columns">
+        <div class="movie-screen">
+          <img src='/assets/images/BookSeat/BookSeat-Screen.png' alt='screen' />
+        </div>
+
+        <div class="seat-container">
+          <div *ngFor="let seat of seats" class="seat" [ngClass]="seat.status" (click)="onSeatClick(seat)">
+            <span>{{ seat.row }}</span>
+            <span>{{ seat.column }}</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="columns">
+
+        <!-- Food and Beverages Button -->
+        <button class="food-beverages-button" (click)="openFoodAndBeveragesPopup()">Food and Beverages</button>
+
+        <!-- Food and Beverages Popup -->
+        <div class="snacks-background" *ngIf="foodAndBeveragesPopupVisible">
+          <div class="food-beverage-popup">
+            <i class="fa fa-close close-popup-button " (click)="closeFoodAndBeveragesPopup()"></i>
+            <h3>Food and Beverages</h3>
+            <div class="food-beverage-item" *ngFor="let item of foodAndBeverages">
+              <span> <img style="width: 50px;" src="{{ item.imageUrl }}"> </span>
+              <span class="title">{{ item.title }}</span>
+              <div>
+                <div class="food-beverage-buttons">
+                  <button (click)="onAddFoodAndBeverage(item)"> + </button>
+                  <span> {{ item.quantity }}</span>
+                  <button (click)="onRemoveFoodAndBeverage(item)"> - </button>
+                </div>
+                <span class="food-beverage-price">{{ item.price | currency: 'INR':'symbol':'1.0' }}</span>
+              </div>
+            </div>
+            <div *ngIf="selectedFoodAndBeverages.length > 0" class="total-snack-price">Total Snack Price:
+              <div class="price">{{ getTotalFoodAndBeveragesPrice() | currency: 'INR':'symbol':'1.0' }}</div>
+            </div>
+            <button class="confirm-snacks-button" (click)="confirmSnacks()">Confirm Snacks</button>
+            <button class="reset-popup-button" (click)="resetFoodAndBeveragesPopup()">Reset</button>
+          </div>
+        </div>
+
+        <div class="billing-container">
+          <div class="billing-header">Billing Details</div>
+          <div class="billing-details">
+            <span>Total Price:</span>
+            <span [ngClass]="{'strikeout': (discountedPrice && selectedSeatCount >= 4) && countdown > 0}">
+              {{ originalPrice | currency: 'INR':'symbol':'1.0' }}</span>
+          </div>
+          <div *ngIf="(discountedPrice && selectedSeatCount >= 4) && countdown > 0" class="billing-details">
+            <span>Discounted Price:</span>
+            <span class="billing-discount">{{ discountedPrice | currency: 'INR':'symbol':'1.0' }}</span>
+          </div>
+          <div class="billing-details" *ngIf="selectedSeatCount > 0">
+            <span>Convenience Fees:</span>
+            <span>{{ selectedSeatCount * convenienceFees | currency: 'INR':'symbol':'1.0' }}</span>
+          </div>
+
+          <div *ngIf="totalSnacksPrice > 0" class="billing-details">
+            <span>Food and Beverages:</span>
+            <span>{{ totalSnacksPrice | currency: 'INR':'symbol':'1.0' }}</span>
+          </div>
+
+          <div class="billing-contribution">
+            <span>Contribute to Movie Grip:</span>
+            <div>
+              <span class="sspp" style="padding-left: 120px;">{{ contributeToMovieGrip | currency: 'INR':'symbol':'1.0'
+                }}</span>
+              <button (click)="removeContribution()">Remove</button>
+            </div>
+          </div>
+          <hr>
+          <div class="billing-final">
+            <span>Final Amount:</span>
+            <span>{{ finalAmount | currency: 'INR':'symbol':'1.0' }}</span>
+          </div>
+          <hr>
+        </div>
+        <div class="grid-buttons">
+          <div (click)="showBookSeatButton = true">
+            <button class="submit-button" (click)="onSubmit()">Book Selected Seats</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <marquee behavior="scroll" direction="right" scrollamount="20">
+      <div class="marquee-content">
+        <span class="color-1">Get 10% discount for more than 3 seat bookings!</span>
+        <span class="color-2">Get 20% discount for more than 7 seat bookings!</span>
+      </div>
+    </marquee>
+
+  </div>
+</body>

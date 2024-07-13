@@ -1,0 +1,54 @@
+<!-- <app-Nav-bar></app-Nav-bar>
+<router-outlet></router-outlet> -->
+
+<!-- <nav class="nav">
+  <a routerLink="Home">Home</a>
+  <a routerLink="Login">Login</a>
+  <a routerLink="Register">Register</a>
+  <a routerLink="Product">Product</a>
+  <a routerLink="ContactUs">ContactUs</a>
+</nav> -->
+
+<body>
+  <header style="background-color: Red; height: 100px; width: 100%; padding-top: 5px">
+    <strong>
+      <a class="header" routerLink="/Admin" *ngIf="slogin.isadmin()">
+        <div class="admin">ADMIN</div>
+      </a>
+      <h2 style="font-size: 35px; color: Black; text-align: center">
+        MOVIE GRIP
+      </h2>
+    </strong>
+  </header>
+
+  <ul>
+    <!-- <li><a routerLink="/Admin" *ngIf="!slogin.isadmin()">Admin</a></li> -->
+    <li><a routerLink="/">HOME</a></li>
+    <li><a routerLink="/Theatre">THEATRE</a></li>
+    <li><a routerLink="/ContactUs">CONTACT US</a></li>
+    <li>
+      <a id="Login" routerLink="/Login" *ngIf="!slogin.isLogin()">LOGIN</a>
+    </li>
+    <!-- <li><a *ngIf="slogin.islogin()" (click)="logout()">LOGOUT</a></li> -->
+    <!-- <li><p> {{slogin.getname()["username"]}} </p> </li> -->
+
+    <li class="dropdown" *ngIf="slogin.isLogin()">
+      <div class="dropbtn">
+        PROFILE
+        <i class="fa fa-caret-down"></i>
+      </div>
+      <div class="dropdown-content">
+        <a class="username" routerLink="/Profile">
+          <img src="{{ slogin.getname().profilepic }}" />
+          <p class="usernametext">{{ slogin.getname()["username"] }}</p>
+        </a>
+        <!-- <a class="Tickets" routerLink="/TicketGenerate"><p>TICKETS</p></a> -->
+        <a class="logout" (click)="logout()"><p>LOGOUT</p></a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="tabs">
+    <router-outlet></router-outlet>
+  </div>
+</body>

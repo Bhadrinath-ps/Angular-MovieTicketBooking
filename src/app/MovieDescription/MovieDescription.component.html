@@ -1,0 +1,169 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3172/3172555.png" type="image/x-icon">
+</head>
+
+<div class="bg-image"
+  style="background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url({{finalMovie.background}});">
+
+  <div class="movie-title">
+    <b>{{finalMovie.title | uppercase}}<br>{{finalMovie.year_duration}}</b>
+  </div>
+
+  <div class="imdb-rating">
+    <b>IMDb RATING<br><img src="http://clipart-library.com/images/pToax64yc.png">
+      {{finalMovie.imdb}}</b>
+  </div>
+
+  <div class="popularity">
+    <b>POPULARITY<br><img src="https://cdn-icons-png.flaticon.com/512/2072/2072130.png">
+      &nbsp;&nbsp;&nbsp;&nbsp; {{finalMovie.popularity}}</b>
+  </div>
+
+  <div>
+    <a routerLink="/">
+      <button type="button" class="btn">BACK</button></a>
+  </div>
+
+  <div class="img">
+    <a routerLink="/Theatre">
+      <img src={{finalMovie.movieimg}}>
+    </a>
+  </div>
+
+  <div class="video">
+    <video controls src="{{finalMovie.movievid}}">
+      type="video/mp4">
+    </video>
+  </div>
+
+  <div class="grid">
+
+    <div class="Leftside">
+      <h1 class="title0"> | </h1>
+
+      <h1 class="title"> Movie Description </h1>
+
+      <div class="mov-desc">
+        <p>
+          {{finalMovie.description1}}<br><br>{{finalMovie.description2}}
+        </p>
+      </div>
+
+      <h1 class="title0"> | </h1>
+
+      <h1 class="title"> Top Cast </h1>
+      <div class="topcast">
+        <div class="cast">
+          <span class="castpic1"> <img src={{finalMovie.castpic1}}> </span>
+          <label><b style="color: yellowgreen">{{finalMovie.castname1}}</b>{{finalMovie.castname11}}</label>
+        </div>
+        <div class="cast">
+          <img src={{finalMovie.castpic2}}>
+          <label><b style="color: yellowgreen">{{finalMovie.castname2}}</b>{{finalMovie.castname22}}</label>
+        </div>
+        <div class="cast">
+          <img src={{finalMovie.castpic3}}>
+          <label><b style="color: yellowgreen">{{finalMovie.castname3}}</b>{{finalMovie.castname33}}</label>
+        </div>
+        <div class="cast">
+          <img src={{finalMovie.castpic4}}>
+          <label><b style="color: yellowgreen">{{finalMovie.castname4}}</b>{{finalMovie.castname44}}</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="rightside">
+      <h1 class="title0"> | </h1>
+      <h1 class="title"> Reviews </h1>
+
+      <div class="review">
+        <div class="row">
+          <article class="card">
+            <div class="card__head">
+              <img src={{finalMovie.reviewpic1}}>
+              <div class="card__user">
+                <div class="name"> {{finalMovie.reviewname1}} &nbsp;</div>
+              </div>
+              <div class="card__rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star notchecked"></i>
+                <i class="fa fa-star notchecked"></i>
+              </div>
+            </div>
+            <div class="card__detail">
+              {{finalMovie.reviewdes1}}
+            </div>
+          </article>
+        </div>
+
+        <div class="row">
+          <article class="card">
+            <div class="card__head">
+              <img src={{finalMovie.reviewpic2}}>
+              <div class="card__user">
+                <div class="name"> {{finalMovie.reviewname2}} &nbsp;</div>
+              </div>
+              <div class="card__rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="card__detail">
+              {{finalMovie.reviewdes2}}
+            </div>
+          </article>
+        </div>
+
+        <div class="row">
+          <article class="card">
+            <div class="card__head">
+              <img src={{finalMovie.reviewpic3}}>
+              <div class="card__user">
+                <div class="name"> {{finalMovie.reviewname3}} &nbsp;</div>
+              </div>
+              <div class="card__rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star notchecked"></i>
+                <i class="fa fa-star notchecked"></i>
+              </div>
+            </div>
+            <div class="card__detail">
+              {{finalMovie.reviewdes3}}
+            </div>
+          </article>
+        </div>
+
+        <div class="row">
+          <article class="card">
+            <div class="card__head">
+              <img src={{finalMovie.reviewpic4}}>
+              <div class="card__user">
+                <div class="name"> {{finalMovie.reviewname4}} &nbsp;</div>
+              </div>
+              <div class="card__rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star notchecked"></i>
+              </div>
+            </div>
+            <div class="card__detail">
+              {{finalMovie.reviewdes4}}
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>

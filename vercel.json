@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "src": "dist/Angular-MovieTicketBooking/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/server.js" },
+    { "src": "/(.*)", "dest": "/dist/Angular-MovieTicketBooking/index.html" }
+  ]
+}

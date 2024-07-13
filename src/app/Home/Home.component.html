@@ -1,0 +1,153 @@
+<body>
+  <div class="bg-intro">
+    <img src="/assets/images/Home/MovieGrip_Intro.png" alt="intro" width="100%">
+  </div>
+
+  <title> MoviesNowShowing </title>
+
+  <!-- <div class="sticky-container">
+
+    <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px;">
+      <strong>
+        <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+      </strong>
+    </header>
+
+    <ul>
+      <li><a routerLink="/">HOME</a></li>
+      <li><a routerLink="/Theatre">THEATRE</a></li>
+      <li><a routerLink="/ContactUs">CONTACT US</a></li>
+      <li><a routerLink="/Login">LOGIN</a></li>
+    </ul>
+
+  </div> -->
+
+  <br><br>
+
+  <div *ngIf="images && images.length > 0" class="carousel-container">
+    <img *ngFor="let image of images; let i=index" [src]="image.imageSrc" [alt]="image.imageAlt"
+      [ngClass]="{'image-active':selectedIndex === i}">
+
+    <div *ngIf="indicators" class="carousel-dot-container">
+      <span *ngFor="let dot of images; let i = index" class="dot" [ngClass]="{'active': selectedIndex === i}"
+        (click)="selectImage(i)"></span>
+    </div>
+
+    <button *ngIf="controls" class="btn-carousel btn-prev">
+      <i class="fa fa-chevron-left icon-carousel icon-prev" (click)="onPrevClick()"></i>
+    </button>
+
+    <button *ngIf="controls" class="btn-carousel btn-next">
+      <i class="fa fa-chevron-right icon-carousel icon-next" (click)="onNextClick()"></i>
+    </button>
+  </div>
+
+  <br>
+
+  <div>
+    <div>
+      <h1 class="MovieName"> MOVIES NOW PLAYING </h1>
+    </div>
+  </div>
+
+  <div class="movies">
+
+    <div class="column">
+      <div class="grid-container" *ngFor="let MoviesNowShowing of movieList1">
+
+        <div class="zoom">
+          <a routerLink="/Home/{{MoviesNowShowing.link}}">
+            <img src={{MoviesNowShowing.pic}}>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <br> -->
+
+    <div>
+      <a routerLink="/Theatre">
+        <input type="button" class="BUTTON" value="Book Ticket">
+      </a>
+    </div>
+
+    <div>
+      <div>
+        <h1 class="MovieNameUC"> UPCOMING MOVIES </h1>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="grid-container" *ngFor="let movieUpcoming of movieList2">
+
+        <div class="zoom">
+          <a routerLink="/Home/{{movieUpcoming.link}}">
+            <img src={{movieUpcoming.pic}}>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top: 15px; padding: 0px 14px; margin-left: -1px;"><img src="/assets/images/Home/DiscountPoster.png" width="99.8%;"></div>
+
+  <h1 class="feedback-title">USER FEEDBACK</h1>
+
+  <div class="query_box" *ngFor="let cu of contactUs">
+    <div class="main">
+      <div class="feedback_card">
+        <div class="card_img">
+          <img src="/assets/images/Profile/Profile-UserImage.jpg" alt="user">
+          <div class="card_user">
+            <div class="name">
+              <p>{{ cu.name }}</p> <span>{{ cu.email }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="card_detail">
+          {{ cu.query }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <p>Movie Grip is an online movie ticket booking website where users can browse and purchase tickets for movies
+      playing in nearby theaters. This website typically offers a user-friendly interface that allows users to get
+      movies based on various criteria such as movie title, genre, language, theater location, and show timings. Users
+      can also view movie trailers, read synopsis, and get information about the cast and crew. Once a user has
+      chosen a movie and showtime, they can select their preferred seats and make payment through a secure payment
+      gateway.</p>
+
+    <div class="span">
+      <span>
+        <i style="color: #3B5998;" class="fa fa-square-facebook"></i>
+        <i style="color: #007bb5;" class="fa fa-linkedin-square"></i>
+        <i style="color: #125688;" class="fa fa-square-instagram"></i>
+        <i style="color: #55ACEE;" class="fa fa-square-twitter"></i>
+      </span>
+    </div>
+
+  </footer>
+
+  <footer class="copyrights">
+    <p><span><i class="fa-solid fa-copyright"></i></span> 2023 Movie Grip. All rights reserved &nbsp;&nbsp;&nbsp; |
+      &nbsp;&nbsp;&nbsp;
+      <span><i class="fa-solid fa-user-tie"></i></span>
+      Designed by Bhadrinath P S &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+      <span><i class="fa-solid fa-phone"></i></span>
+      Phone :
+      <a style="color:aliceblue;text-decoration: none;" href="tel:+91 6374579499">+91 6374579499 , </a>
+      <a style="color:aliceblue;text-decoration: none;" href="tel:+91 7871223114">+91 7871223114</a>
+      &nbsp;&nbsp;&nbsp;
+      |
+      &nbsp;&nbsp;&nbsp;
+      <span><i class="fa-solid fa-envelope"></i></span>
+      Mail : <a style="color:aliceblue;text-decoration: none;" href="mailto:moviegrip@gmail.com">moviegrip@gmail.com</a>
+    </p>
+
+  </footer>
+</body>

@@ -1,0 +1,90 @@
+body {
+  background: url("https://c1.wallpaperflare.com/preview/570/413/91/interior-theatre-theater-empty-theater.jpg");
+  margin: 0;
+  padding: 0;
+  height: 81%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+fieldset {
+  width: 300px;
+  height: fit-content;
+  margin-top: 50px;
+  background-color: rgba(14, 10, 10, 0.886);
+  border-radius: 14px;
+  border-color: rgba(242, 8, 8, 0.916);
+  box-shadow: 0 6px 10px 0 rgba(241, 8, 8, 0.269), 0 8px 22px 0 rgba(211, 9, 9, 0.26);
+  /* display: inline-flex; */
+}
+
+legend {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.profile-content img {
+  border-radius: 50%;
+  width: 200px;
+  margin: 0px 10px 10px 10px;
+  /* margin-bottom: 10px; */
+}
+
+input[type="email"],
+input[type="text"] {
+  border-radius: 6px;
+  height: 25px;
+  width: 285px;
+  margin-top: 1.5px;
+  margin-left: 7px;
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  border: 1px solid rgba(13, 9, 0, 0.491);
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 6px 0px 0px 87px;
+  height: 30px;
+  width: 125px;
+}
+
+button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.text-danger {
+  padding-top: 3px;
+  color: rgb(255, 128, 128);
+  font-weight: 900;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 4px;
+  border-color: red;
+}
+
+.pictureleft, .previewright {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  font-size: larger;
+  margin-left: 1px;
+  padding: 0px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  color: #8484845e;
+}
+
+.previewstyle {
+  display: flex;
+}
+
+.previewright {
+margin: 0px -10px 0px 10px;
+}

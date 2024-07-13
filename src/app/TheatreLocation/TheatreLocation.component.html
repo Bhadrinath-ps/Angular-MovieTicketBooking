@@ -1,0 +1,123 @@
+<div class="bg-image">
+
+  <!-- <header style="background-color: Red; height: 100px; width: 100%; Padding-top: 5px">
+    <strong>
+      <h2 style="font-size:35px; color:Black; text-align: center;">MOVIE GRIP</h2>
+    </strong>
+  </header>
+
+  <ul>
+    <li><a routerLink="/">HOME</a></li>
+    <li><a routerLink="/Theatre">THEATRE</a></li>
+    <li><a routerLink="/ContactUs">CONTACT US</a></li>
+    <li><a routerLink="/Login">LOGIN</a></li>
+  </ul> -->
+
+  <!-- <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+      <fieldset>
+
+        <legend>
+          <h2 style="color:White;">Select Your Favorite Theatre</h2>
+        </legend>
+
+        <div>
+          <label for="state" class="label-name-state">Select your State</label><br>
+          <select name="state" id="state" (change)="stateChanged($event)">
+            <option value="">-- Pick Your State --</option>
+            <option *ngFor="let state of states" [value]="state.name">{{ state.name }}</option>
+          </select>
+        </div><br>
+
+        <div *ngIf="cities.length">
+          <label for="city" class="label-name-city">Select your City</label><br>
+          <select name="city" id="city" (change)="cityChanged($event)">
+            <option value="">-- Pick Your City --</option>
+            <option class="optn" *ngFor="let city of cities" [value]="city.name">{{ city.name }}</option>
+          </select>
+        </div><br>
+
+        <div *ngIf="theatres.length">
+          <label for="theatre" class="label-name-theatre">Select your Theatre</label><br>
+          <select name="theatre" id="theatre">
+            <option value="">-- Pick Your Favourite Theatre --</option>
+            <option *ngFor="let theatre of theatres" [value]="theatre">{{ theatre }}</option>
+          </select>
+        </div>
+
+        <div>
+          <a routerLink="/BookTicket">
+            <button class="btn"> Book Ticket </button>
+          </a>
+        </div>
+
+      </fieldset>
+    </form>
+
+  </div> -->
+
+  <div class="mapouter-salem">
+    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=salem tamilnadu theatre&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+  </div>
+
+  <div class="container">
+    <fieldset>
+      <legend>
+        <h2 style="color:White;">Select Your Favorite Theatre</h2>
+      </legend>
+
+      <form [formGroup]="theatreForm" (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+          <label for="state" class="label-name-state">Select your State</label><br>
+          <select formControlName="state" class="form-control" (change)="stateChanged($event)">
+            <option value="">-- Pick Your State --</option>
+            <option *ngFor="let state of states" [value]="state.name">{{ state.name }}</option>
+          </select>
+
+          <div class="error" *ngIf="theatreForm.controls['state'].invalid && theatreForm.controls['state'].touched">
+            <small *ngIf="theatreForm.controls['state'].errors?.['required']"></small>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="city" class="label-name-city">Select your City</label><br>
+          <select formControlName="city" class="form-control" (change)="cityChanged($event)"
+            [disabled]="!selectedState">
+            <option value="">-- Pick Your City --</option>
+            <option *ngFor="let city of cities" [value]="city.name">{{ city.name }}</option>
+          </select>
+
+          <div class="error" *ngIf="theatreForm.controls['city'].invalid && theatreForm.controls['city'].touched">
+            <small *ngIf="theatreForm.controls['city'].errors?.['required']"></small>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="theatre " class="label-name-theatre">Select your Theatre</label><br>
+          <select formControlName="theatre" class="form-control" [disabled]="!selectedCity">
+            <option value="">-- Pick Your Theatre --</option>
+            <option *ngFor="let theatre of theatres" [value]="theatre">{{ theatre }}</option>
+          </select>
+
+          <div class="error" *ngIf="theatreForm.controls['theatre'].invalid && theatreForm.controls['theatre'].touched">
+            <small *ngIf="theatreForm.controls['theatre'].errors?.['required']"></small>
+          </div>
+
+        </div>
+        <button type="submit" class="btn" [disabled]="!theatreForm.valid"> Book Ticket </button>
+
+      </form>
+    </fieldset>
+  </div>
+
+  <div class="mapouter-chennai">
+    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=chennai tamilnadu theatre&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+  </div>
+
+
+  <!-- <img src="https://p7.hiclipart.com/preview/226/692/948/cinema-black-and-white-theater-theatre-clip-art-theatre-building-cliparts.jpg"> -->
