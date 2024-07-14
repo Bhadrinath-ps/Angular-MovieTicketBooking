@@ -57,4 +57,4 @@ This command is set up to run both servers using:
 
 Feel free to explore and enhance the application according to your needs! 🎉
 
-You can access the live application 👉 [MovieTicketBooking](https://angular-movie-ticket-booking-e5jwfxeio-bhadrinath-ps-projects.vercel.app/).
+You can access the live application 👉 [MovieTicketBooking](https://angular-movie-ticket-booking.vercel.app/).
